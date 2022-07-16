@@ -1,0 +1,49 @@
+﻿<div id="title"><h1 align="left">Rankings</h1></div>
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PvP" onClick="window.location='index.php?icp=ranking&type=top_pvp'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PK" onClick="window.location='index.php?icp=ranking&type=top_pk'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Online" onClick="window.location='index.php?icp=ranking&type=top_online'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Clan" onClick="window.location='index.php?icp=ranking&type=top_clan'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Milionários" onClick="window.location='index.php?icp=ranking&type=top_adena'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Olympiads" onClick="window.location='index.php?icp=ranking&type=olympiads'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Heros" onClick="window.location='index.php?icp=ranking&type=top_heros'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Raid Points" onClick="window.location='index.php?icp=ranking&type=raid_points'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="Clan Halls" onClick="window.location='index.php?icp=ranking&type=clan_hall'">
+<br><br>
+<fieldset>
+	<legend>Top {MAX_RANKINGS} Raid Points</legend>
+	<div style="width:525px; float:left;">
+		<div id="rank_borda" style="width:30px;">
+			#
+		</div>
+		<div id="rank_borda" style="width:145px;">
+			Nome
+		</div>
+		<div id="rank_borda" style="width:120px;">
+			Class
+		</div>
+		<div id="rank_borda" style="width:140px;">
+			Clan
+		</div>
+		<div id="rank_borda" style="width:70px;">
+			Points
+		</div>
+		<!-- BEGIN BLOCK_RANK_RAID_POINTS -->
+			<div id="rank_borda" style="width:30px;">
+				{RANK_RAID_POINTS_POS}
+			</div>
+			<div id="rank_borda" style="width:145px;">
+				{RANK_RAID_POINTS_NAME}
+			</div>
+			<div id="rank_borda" style="width:120px;">
+				{RANK_RAID_POINTS_CLASS}
+			</div>
+			<div id="rank_borda" style="width:140px;">
+				{RANK_RAID_POINTS_CLAN}
+			</div>
+			<div id="rank_borda" style="width:70px;">
+				{RANK_RAID_POINTS_COUNT}
+			</div>
+		<!-- END BLOCK_RANK_RAID_POINTS -->
+		<div style="float:left; width:100%; padding-top:30px;"></div>
+	</div>
+</fieldset>

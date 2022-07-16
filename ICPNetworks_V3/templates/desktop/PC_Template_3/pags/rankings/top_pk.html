@@ -1,0 +1,50 @@
+<div id="title"><h1 align="left">Rankings</h1></div>
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PvP" onClick="window.location='index.php?icp=ranking&type=top_pvp'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PK" onClick="window.location='index.php?icp=ranking&type=top_pk'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Online" onClick="window.location='index.php?icp=ranking&type=top_online'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Clan" onClick="window.location='index.php?icp=ranking&type=top_clan'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Milionários" onClick="window.location='index.php?icp=ranking&type=top_adena'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Olympiads" onClick="window.location='index.php?icp=ranking&type=olympiads'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Heros" onClick="window.location='index.php?icp=ranking&type=top_heros'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Raid Points" onClick="window.location='index.php?icp=ranking&type=raid_points'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="Clan Halls" onClick="window.location='index.php?icp=ranking&type=clan_hall'">
+<br><br>
+<fieldset>
+	<legend>Ranking TOP PK</legend>
+	<div style="width:525px; float:left;">
+		<div id="rank_borda" style="width:30px;">
+			#
+		</div>
+		<div id="rank_borda" style="width:145px;">
+			Nome
+		</div>
+		<div id="rank_borda" style="width:140px;">
+			Clan
+		</div>
+		<div id="rank_borda" style="width:120px;">
+			Classe
+		</div>
+		<div id="rank_borda" style="width:70px;">
+			PK
+		</div>
+	</div>
+	<!-- BEGIN BLOCK_RANK_PK -->
+		<div id="linha_rank">
+			<div id="rank_borda" style="width:30px;">
+				{RANK_PVPPK_POS}
+			</div>
+			<div id="rank_borda" style="width:145px;">
+				{RANK_PVPPK_NAME}
+			</div>
+			<div id="rank_borda" style="width:140px;">
+				{RANK_PVPPK_CLAN}
+			</div>
+			<div id="rank_borda" style="width:120px;">
+				{RANK_PVPPK_CLASS}
+			</div>
+			<div id="rank_borda" style="width:70px;">
+				{RANK_PVPPK_COUNT}
+			</div>
+		</div>
+	<!-- END BLOCK_RANK_PK -->
+</fieldset>

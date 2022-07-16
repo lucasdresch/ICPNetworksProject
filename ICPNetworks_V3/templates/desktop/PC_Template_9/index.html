@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta data -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="{SITE_NAME}, lineage2, lineage 2, line age, lineage II, server, servidor, melhor servidor, top200, topservers, interlude, freya, epilogue, hf, gracia final, high five, top server, rank lineage, ranking lineage, h5, goddess of destruction, icpnetworks, l2jbrasil">
+		<meta name="description" content="{SITE_NAME} - Servidor privado de Lineage II">
+		<meta name="copyright" content="ICPNetworks">
+		<meta name="author" content="www.icpnetworks.com.br / Design & desenvolvimentos web">
+		<meta name="email" content="contato@icpnetworks.com.br">
+		<!-- title -->
+		<title>{SITE_TITLE}</title>
+		<!-- CSS -->
+		<link type="text/css" href="{TEMPLATE}styles/css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="images/miscs/favicon.ico">
+		<!-- JavaScripts -->
+		<script type="text/javascript" src="{TEMPLATE}styles/js/PopBox.js"></script>
+		<script type="text/javascript">
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2617026385223468');
+			fbq('track', 'PageView');
+			fbq('track', 'UserPanel');
+			popBoxWaitImage.src = "images/miscs/spinner40.gif";
+			popBoxRevertImage = "images/miscs/magminus.gif";
+			popBoxPopImage = "images/miscs/magplus.gif";
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="menu">
+					<a id="home" href="index.php"></a>
+					<a id="account" href="index.php?icp=registro"></a>
+					<a id="downloads" href="index.php?icp=downloads"></a>
+					<a id="informations" href="index.php?icp=info"></a>
+					<a id="ranking" href="index.php?icp=rankings"></a>
+					<a id="donate" href="#"></a>
+				</div>
+				<div class="sidebar-left">
+					<div class="control_panel"></div>
+					<div class="middle_box">
+						<!-- BEGIN BLOCK_ICP_PANEL_CONNECTED -->
+							<center><br><span style="color:#ccc;">ACCESS:</span><br>
+							<a class="link_statistics" href="?icp=panel" target="_blank" style="margin-top:10px;">Control Panel</a></center>
+						<!-- END BLOCK_ICP_PANEL_CONNECTED -->
+						<!-- BEGIN BLOCK_ICP_PANEL_DISCONNECTED -->
+							<form method="post">
+								<div id="login-icon"></div><input type="text" name="username" id="login" placeholder="Login/Username">
+								<div id="pass-icon"></div><input type="password" name="password" id="password" placeholder="Password/Security">
+								<input type="submit" name="login" id="btn_login" value="LOGIN">
+							</form>
+							<a class="links" href="index.php?icp=remember">» Forgot your password ? </a>
+							<a class="links" href="index.php?icp=registro">» register here ! </a>
+						<!-- END BLOCK_ICP_PANEL_DISCONNECTED -->
+					</div>
+					<div class="bottom_box"></div>
+					<div class="statistics"></div>
+					<div class="middle_box">
+						<a class="link_statistics" href="index.php?icp=ranking&type=top_pvp" style="margin-top:10px;">TOP PVP</a>
+						<a class="link_statistics" href="index.php?icp=ranking&type=top_pk">TOP PK</a>
+						<a class="link_statistics" href="index.php?icp=ranking&type=olympiads">OLYMPIADS</a>
+						<a class="link_statistics" href="index.php?icp=ranking&type=castles_siege">CASTLE SIEGE</a>
+						<a class="link_statistics" href="index.php?icp=ranking&type=boss_status">RAID BOSS</a>
+						<a class="link_statistics" href="#">EVENTS</a>
+					</div>
+					<div class="bottom_box"></div>
+					<a href="#"><div class="howtoplay"></div></a>
+					<div class="facebook"></div>
+					<div class="middle_box">
+						<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F{FACEBOOK}&amp;width=190&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:258px; margin-left:5px; background:none;" allowTransparency="true"></iframe>
+					</div>
+					<div class="bottom_box"></div>
+				</div><!-- SIDEBAR LEFT -->
+				<div class="content_text">
+					<div class="content_text_top"></div>
+					<div class="content_text_middle">
+						{PAGES}
+					</div>
+					<div class="content_text_bottom"></div>
+				</div>
+				<!-- CONTENT TEXT -->
+				<div class="sidebar-left">
+					<div class="status"></div>
+					<div class="middle_box">
+						<div class="loginserver">
+							<div class="text_status">LOGINSERVER</div>
+							<!-- BEGIN BLOCK_LOGIN_SERVER_ONLINE -->
+								<div class="icon_online"></div>
+							<!-- END BLOCK_LOGIN_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_LOGIN_SERVER_OFFLINE -->
+								<div class="icon_offline"></div>
+							<!-- END BLOCK_LOGIN_SERVER_OFFLINE -->
+						</div>
+						<div class="gameserver">
+							<div class="text_status">GAMESERVER</div>
+							<!-- BEGIN BLOCK_GAME_SERVER_ONLINE -->
+								<div class="icon_online"></div>
+							<!-- END BLOCK_GAME_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_GAME_SERVER_OFFLINE -->
+								<div class="icon_offline"></div>
+							<!-- END BLOCK_GAME_SERVER_OFFLINE -->
+						</div>
+						<div class="playerson">
+							<div class="text_status">PLAYERS ON</div>
+							<div class="text_playerson">
+								<!-- BEGIN BLOCK_SERVER_DETAILS -->
+									{SERVER_TOTAL_ONLINE}
+								<!-- END BLOCK_SERVER_DETAILS -->
+							</div>
+						</div>
+					</div>
+					<div class="bottom_box"></div>
+					<div class="votetops"></div>
+					<div class="middle_box">
+						<a class="link_statistics" href="#" style="margin-top:10px;">GAMESITES200</a>
+						<a class="link_statistics" href="#">TOPLINEAGE2</a>
+						<a class="link_statistics" href="#">TOPSERVERS200</a>
+						<a class="link_statistics" href="#">L2JBRASIL</a>
+						<a class="link_statistics" href="#">ARENA 100</a>
+						<a class="link_statistics" href="#">TOPZONE</a>
+					</div>
+					<div class="bottom_box"></div>
+					<a href="#"><div class="howtoplay"></div></a>
+					<div class="facebook"></div>
+					<div class="middle_box">
+						<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F{FACEBOOK}&amp;width=190&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:258px; margin-left:5px; background:none;" allowTransparency="true"></iframe>
+					</div>
+					<div class="bottom_box"></div>
+				</div><!-- SIDEBAR LEFT -->
+			</div>
+			<div class="footer_box"></div>
+		</div>
+		<div class="text-footer">
+			<span style="font-size:8px;">{SITE_NAME} ©</span><br />
+			All rights reserved<br />
+			<span style="font-size:8px;"><a href="http://facebook.com/icpnetworks" target="_blank" class="link-footer">Layout Design & developed by ICPNetworks</a></span><br />
+		</div><br>
+		<div class="align-developed">
+			<div class="developed">
+				Developed By : 
+			</div>
+			<a href="http://icpnetworks.com.br" target="_blank">
+				<div class="logoicp"></div>
+			</a>
+		</div>
+		<div class="autorize">
+			NCsoft &reg;, the interlocking NC logo, Lineage&reg; II, and all associated logos and designs are trademarks or registered trademarks or service marks of NCsoft Corp.<br>
+			All rights reserved and other trademarks are the property of their respective owners.
+		</div>
+	</body>
+</html>

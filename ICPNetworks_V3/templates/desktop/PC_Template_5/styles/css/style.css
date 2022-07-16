@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; } 
+@font-face {
+font-family: "trajan Pro";
+font-style: normal;
+font-weight: normal;
+src: url(../font/TrajanPro-Regular.ttf);
+}
+body { background:url(../../imgs/bg.jpg) no-repeat top center #1b0801; }
+
+.menu { width:1000px; height:155px; margin:0 auto; margin-top:261px; }  
+
+.menu ul#nav { list-style:none; display:block; } 
+.menu ul#nav li { position:relative; } 
+.menu ul#nav li ul#subnav { position:absolute; top:129px; left:-31px; display:none; } 
+.menu ul#nav li:hover ul#subnav  {  display:block; width:213px; background:#3e1808; z-index:9999; border-radius:0px 0px 5px 5px;} 
+.menu ul#nav li ul#subnav li { background: url(../../imgs/bg-sub-menu.png); margin-left:5px; margin-top:-1px; float:none; width:203px; opacity:0.50; text-align:center; height:32px; } 
+.menu ul#nav li ul#subnav li:hover { opacity:1; } 
+.menu ul#nav li ul#subnav li#last-sub { margin-bottom:5px; }
+.menu ul#nav li { list-style:none; float:left; }  
+.menu ul#nav li ul#subnav li a { font-family:Arial, Helvetica, sans-serif; text-shadow: 0 1px 0 rgba(255,255,255,0.2); font-size:14px; color:#1e0c05; line-height:30px; text-decoration:none; font-weight:bold;}
+
+
+
+
+#home {  background:url(../../imgs/sprites_menu.png) no-repeat -92px -27px; width:125px; height:155px; display:block; float:left;}
+#home:hover { background-position: -92px -182px; }
+#register { background:url(../../imgs/sprites_menu.png) no-repeat -217px -27px; width:110px; height:155px; display:block; float:left; }
+#register:hover { background-position: -217px -182px; }
+#downloads{ background:url(../../imgs/sprites_menu.png) no-repeat -327px -27px; width:165px; height:155px; display:block; float:left; }
+#downloads:hover { background-position: -327px -182px; }
+#informations{ background:url(../../imgs/sprites_menu.png) no-repeat -492px -27px; width:175px; height:155px; display:block; float:left; }
+#informations:hover { background-position: -492px -182px; }
+#rankings{ background:url(../../imgs/sprites_menu.png) no-repeat -667px -27px; width:135px; height:155px; display:block; float:left; }
+#rankings:hover { background-position: -667px -182px; }
+#donations{ background:url(../../imgs/sprites_menu.png) no-repeat -802px -27px; width:145px; height:155px; display:block; float:left; }
+#donations:hover { background-position: -802px -182px; }
+#forum{ background:url(../../imgs/sprites_menu.png) no-repeat -947px -27px; width:145px; height:155px; display:block; float:left; }
+#forum:hover { background-position: -947px -182px; }
+
+.container { width:941px; height:auto; margin:0 auto; } 
+.centro { float:left; background:url(../../imgs/content.jpg) 2px 0px repeat-y; width:944px; height:auto; margin-top:-27px; } 
+
+.sidebar-left { width:232px; height:auto; float:left; margin-left:5px; margin-bottom:70px; } 
+
+.sidebar-right { width:232px; height:auto; float:right; margin-right:23px; margin-bottom:70px; } 
+
+.top_box { background:url(../../imgs/sprites_content.jpg) no-repeat; width:232px; height:57px; float:left; margin-top:10px; margin-left:10px; }
+
+.title-box-control { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -76px; width:145px; height:38px; margin:0 auto; margin-top:10px; }  
+
+.title-box-statistics { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -113px; width:109px; height:38px; margin:0 auto; margin-top:10px; }  
+
+.title-box-donation { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -155px; width:100px; height:38px; margin:0 auto; margin-top:10px; } 
+
+.title-box-vote { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -197px; width:178px; height:44px; margin:0 auto; margin-top:10px; } 
+
+.title-box-facebook { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -241px; width:89px; height:39px; margin:0 auto; margin-top:10px; } 
+
+.midle-box { background:url(../../imgs/midlebox.jpg)  repeat-y; width:232px; height:auto; clear:both; float:left; margin-left:10px; } 
+
+.final-box { background:url(../../imgs/sprites_content.jpg) no-repeat -0px -67px; width:232px; height:10px; margin-left:10px; clear:both;} 
+.icon-user { background:url(../../imgs/sprites_content.jpg) no-repeat -393px -182px; width:34px; height:32px; float:left; margin-left:19px; margin-top:8px; }
+
+.icon-pass { background:url(../../imgs/sprites_content.jpg) no-repeat -393px -220px; width:34px; height:32px; float:left; margin-left:19px; margin-top:8px; }
+
+
+#login { background:url(../../imgs/sprites_content.jpg) no-repeat -427px -182px; float:left; width:158px; height:32px; border:none; margin-top:8px; font-family: "trajan Pro"; font-size:13px; text-align:center; color:#fff; outline:none; }  
+
+
+#password { background:url(../../imgs/sprites_content.jpg) no-repeat -427px -182px; float:left; width:158px; height:32px; border:none; margin-top:8px; font-family: "trajan Pro"; font-size:13px; text-align:center; color:#fff; outline:none; }  
+
+#btn_login { background:url(../../imgs/sprites_content.jpg) no-repeat -414px -144px; width:153px; height:32px; clear:both; border:none; margin-top:10px; margin-left:40px; opacity:0.80;}
+#btn_login:hover { opacity:1; cursor:pointer; }  
+
+#links { background:url(../../imgs/seta.png) no-repeat left center; font-family:"trajan Pro"; font-size:11px; color:#ca7e3c; padding-left:10px; margin-left:35px; margin-top:8px;  text-decoration:none; float:left; padding-top:1px; }  
+#links:hover { text-decoration:underline; color:#f0a360; } 
+
+
+#links2 { background:url(../../imgs/seta.png) no-repeat left center; font-family:"trajan Pro"; font-size:11px; color:#ca7e3c; padding-left:10px; margin-left:35px; margin-top:3px;  text-decoration:none; float:left; padding-top:1px; }  
+#links2:hover { text-decoration:underline; color:#f0a360; } 
+
+.btn_statistics { background:url(../../imgs/sprites_content.jpg) no-repeat -377px -100px; width:200px; height:32px; margin:0 auto; margin-top:5px; font-family:"trajan Pro"; font-size:12px; color:#bd5b35; text-align:center; line-height:35px; } 
+.btn_statistics:hover { background-position:-377px -64px; } 
+
+.img_donation { background:url(../../imgs/sprites_content.jpg) no-repeat -358px -258px; width:209px; height:83px; margin:0 auto; margin-top:10px; opacity:0.80; }
+.img_donation:hover { opacity:1; }   
+.link-donation { font-family:"trajan Pro"; font-size:10px; color:white; text-align:center;  margin-top:10px; text-decoration:none;} 
+
+.content-meio { width:405px; height:auto; float:left; margin-left:35px; }  
+.status { background:url(../../imgs/sprites_content.jpg) no-repeat -238px -0px; width:319px; height:55px; margin:0 auto; font-family:"trajan Pro"; font-size:11px; color:#000; font-weight:bold;  line-height:75px; text-align:center;  } 
+
+.slide { background:url(../../imgs/slide/slide1.jpg) no-repeat; width:405px; height:191px; margin:0 auto; margin-top:20px; } 
+
+.conteudo-texto { width:405px; height:auto; float:left; background:#491b09; margin-top:20px; margin-bottom:90px;  } 
+
+.vote-img { background:url(../../imgs/sprites_content.jpg) no-repeat -166px -254px; height:89px; width:178px; margin:0 auto; margin-top:10px; opacity:0.80;  }
+.vote-img:hover { opacity:1; }  
+
+.dragao { background:url(../../imgs/dragao.jpg) no-repeat;  width:58px; height:178px; position:absolute; margin-left:-55px; margin-top:50px; float:left;} 
+
+.footer { background:url(../../imgs/footer_weapons.png) no-repeat; width:949px; height:143px; float:left; clear:both; margin-left:-3px; margin-top:-80px;} 
+
+.footer_bg { background:url(../../imgs/footer.jpg) no-repeat top center; clear:both; height:277px; } 
+
+.footer_text { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:white; text-align:center; font-weight:bold; padding-top:200px; } 
+
+.bar_title { background:url(../../imgs/bar_title.png) no-repeat; width:384px; height:45px; float:left; margin-top:15px; margin-left:9px;} 
+
+.text-title { font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:white; margin-top:10px; margin-left:20px; } 
+
+.titulo_post { font-family:"trajan Pro"; font-size:24px; margin-top:10px; margin-left:10px; color:#c7593b; } 
+
+.text-conteudo { width:390px; height:auto; font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:white; text-align:left; margin-left:10px; margin-bottom:5px; } 
+
+.inline { width:368px; margin:0 auto;  margin-top:10px; margin-bottom:15px; } 
+
+#input { width:350px; height:30px; margin-bottom:15px; font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#666;   }
+
+#btn { width:140px; height:30px; border:solid 1px #930; background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+ font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold; color:white; margin-bottom:15px; opacity:0.80;  }
+ #btn:hover { opacity:1; cursor:pointer; }
+
+#rank_borda {
+	color:#f5f5f5;
+	font-size:12px;
+	background:rgba(255,255,255,0.2);
+	float:left;
+	text-align:center;
+	margin: 1px;
+	line-height:16px;
+	height:16px;
+}
+
+.PopBoxImageSmall
+{
+	border: none 0px #000000;
+	cursor: url("../../../../../images/miscs/magplus.cur"), pointer;
+}
+.PopBoxImageLarge
+{
+	border: solid 2px #1b222c;
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageShrink
+{
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageLink
+{
+	cursor: pointer;
+}
+.PopBoxImageMove
+{
+	border: 2px solid #000000;
+	cursor: pointer;
+}

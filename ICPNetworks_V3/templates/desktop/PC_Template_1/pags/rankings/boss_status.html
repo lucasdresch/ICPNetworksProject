@@ -1,0 +1,78 @@
+<div class="style-content">
+<h1>Bosses Status</h1>
+
+O Raid Boss Status informa o status de todos os Raid Boss, caso esteja morto, indica sua data e hora de respawn.<br><br>
+
+Cada restart atualiza a ferramenta.<br><br>
+
+<h1>Grand Boss Status</h1>
+
+<div style="width:450px; float:left; margin-left:15px;">
+	<div id="rank_borda" style="width:150px;">
+		Nome
+	</div>
+	<div id="rank_borda" style="width:50px;">
+		Level
+	</div>
+	<div id="rank_borda" style="width:50px;">
+		Status
+	</div>
+	<div id="rank_borda" style="width:150px;">
+		Respawn
+	</div>
+</div>
+<!-- BEGIN BLOCK_RANK_BOSSES -->
+	<div style="width:450px; float:left; margin-left:15px;">
+		<div id="rank_borda" style="width:150px; height:133px;">
+			{RANK_BOSS_NAME}<br>
+			<img  alt="{RANK_BOSS_NAME}" src="images/bosses/{RANK_BOSS_NAME}.jpg" width="150" height="113"  pbsrc="images/bosses/{RANK_BOSS_NAME}.jpg" pbCaption="{RANK_BOSS_NAME} - Status: {RANK_BOSS_STATUS} - Respawn: {RANK_BOSS_RESPAWN}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');">
+		</div>
+		<div id="rank_borda" style="width:50px; height:133px; line-height:133px;">
+			{RANK_BOSS_LEVEL}
+		</div>
+		<div id="rank_borda" style="width:50px; height:133px; line-height:133px;">
+			{RANK_BOSS_STATUS}
+		</div>
+		<div id="rank_borda" style="width:150px; height:133px; line-height:133px;">
+			{RANK_BOSS_RESPAWN}
+		</div>
+	</div>
+<!-- END BLOCK_RANK_BOSSES -->
+
+<div style="float:left; width:100%; padding-top:30px;"></div>
+
+<h1>Raid Boss Status</h1>
+
+<div style="width:450px; float:left; margin-left:1px;">
+	<div id="rank_borda" style="width:239px;">
+		Nome
+	</div>
+	<div id="rank_borda" style="width:45px;">
+		Level
+	</div>
+	<div id="rank_borda" style="width:50px;">
+		Status
+	</div>
+	<div id="rank_borda" style="width:100px;">
+		Respawn
+	</div>
+</div>
+<!-- BEGIN BLOCK_RAID_BOSSES -->
+	<div style="width:475px; float:left; margin-left:1px;">
+		<div id="rank_borda" style="width:239px; font-size:12px;">
+			{RANK_BOSS_NAME}
+		</div>
+		<div id="rank_borda" style="width:45px;">
+			{RANK_BOSS_LEVEL}
+		</div>
+		<div id="rank_borda" style="width:50px;">
+			{RANK_BOSS_STATUS}
+		</div>
+		<div id="rank_borda" style="width:100px;">
+			{RANK_BOSS_RESPAWN}
+		</div>
+	</div>
+<!-- END BLOCK_RAID_BOSSES -->
+<div style="clear:both;"></div>
+<br>
+</div>

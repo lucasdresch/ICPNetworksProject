@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+ * { margin:0; padding:0; } 
+ 
+ body { background: url(../../imgs/bg.jpg) no-repeat top center #1e1e14; } 
+ .container { width:962px; height:auto; margin:0 auto; } 
+ .content { width:962px; height:auto !important;  background:#101010; margin-top:423px; float:left; border-radius:10px 10px 0px 0px } 
+ .menu { width:962px; float:left; } 
+ .menu a#home { background:url(../../imgs/menu_sprite.png) no-repeat; width:164px; height:73px; float:left; display:block; } 
+ .menu a#home:hover { background-position:-0px -73px; } 
+  .menu a#account { background:url(../../imgs/menu_sprite.png) no-repeat -164px -0px; width:148px; height:73px; float:left; display:block; } 
+ .menu a#account:hover { background-position:-164px -73px; } 
+   .menu a#downloads { background:url(../../imgs/menu_sprite.png) no-repeat -312px -0px; width:170px; height:73px; float:left; display:block; } 
+ .menu a#downloads:hover { background-position:-312px -73px; } 
+    .menu a#informations { background:url(../../imgs/menu_sprite.png) no-repeat -482px -0px; width:191px; height:73px; float:left; display:block; } 
+ .menu a#informations:hover { background-position:-482px -73px; } 
+     .menu a#ranking { background:url(../../imgs/menu_sprite.png) no-repeat -673px -0px; width:155px; height:73px; float:left; display:block; } 
+ .menu a#ranking:hover { background-position:-673px -73px; } 
+      .menu a#donate { background:url(../../imgs/menu_sprite.png) no-repeat -828px -0px; width:134px; height:73px; float:left; display:block; } 
+ .menu a#donate:hover { background-position:-828px -73px; } 
+ 
+ .sidebar-left { width:210px; float:left; margin-left:10px; margin-top:10px; } 
+ .control_panel { background:url(../../imgs/control_panel.png) no-repeat; width:210px; height:51px; float:left; } 
+  .statistics { background:url(../../imgs/statistics.png) no-repeat; width:210px; height:51px; float:left; } 
+  .facebook { background:url(../../imgs/facebook.png) no-repeat; width:210px; height:51px; float:left; } 
+  .status { background:url(../../imgs/status.png) no-repeat; width:210px; height:51px; float:left; } 
+  .votetops { background:url(../../imgs/votetops.png) no-repeat; width:210px; height:51px; float:left; } 
+ .middle_box { background:url(../../imgs/content_box.png) repeat-y; height:auto; width:210px; float:left; } 
+ .bottom_box { background:url(../../imgs/content_box_bottom.png) no-repeat; width:210px; height:19px; float:left; } 
+ 
+ /* FORM USER LOGIN */
+#login-icon { background:url(../../imgs/sprite_user.png) no-repeat; width:40px; height:32px; float:left; margin-left:13px; margin-top:10px; } 
+#login { background:url(../../imgs/sprite_user.png) no-repeat -40px -0px; width:142px; height:32px; float:left; border:none; margin-top:10px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:11px; color:#b8b19f; text-align:center;  } 
+
+#pass-icon { background:url(../../imgs/sprite_user.png) no-repeat -0px -40px; width:40px; height:32px; float:left; margin-left:13px; margin-top:10px; } 
+#password { background:url(../../imgs/sprite_user.png) no-repeat -40px -0px; width:142px; height:32px; float:left; border:none; margin-top:10px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:11px; color:#b8b19f; text-align:center;  }
+
+#btn_login { width:182px; height:32px; border:none; background:url(../../imgs/sprite_buttons.png) no-repeat; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:16px; color:#171717; font-weight:bold; text-shadow:1px 1px 1px rgba(255,255,255,0.60); text-transform:uppercase; margin-left:13px; margin-top:6px; border-radius:3px; } 
+
+#btn_login:hover { background-position:-0px -31px; cursor:pointer; } 
+
+.links { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:11px; text-transform:uppercase; color:#cfbc90; float:left; margin-left:13px; margin-top:4px; text-decoration:none; } 
+.links:hover { text-decoration:underline; color:#e1ac36; } 
+
+.link_statistics { background:url(../../imgs/sprite_buttons.png) no-repeat;  width:182px; height:32px; float:left; margin-left:13px; margin-top:-1px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:16px; color:#171717; font-weight:bold; text-shadow:1px 1px 1px rgba(255,255,255,0.60); text-transform:uppercase; text-decoration:none; text-align:center; line-height:32px; border-radius:2px; display:block; }
+
+.link_statistics:hover { background-position:-0px -31px; cursor:pointer; }  
+
+.howtoplay { background:url(../../imgs/howtoplay.jpg) no-repeat; width:203px; height:78px; float:left; margin-top:10px; opacity:0.7; border-radius:3px; margin-left:3px; margin-bottom:10px; }
+.howtoplay:hover { cursor:pointer; opacity:1; } 
+
+.content_text { width:494px; height:auto; float:left; margin-left:10px; margin-top:15px; } 
+.content_text_top { background:url(../../imgs/top_content_text.jpg) no-repeat; width:494px; height:31px; float:left; } 
+.content_text_mask { background:#434343; width:494px; height:700px; float:left; }
+.content_text_middle { background:url(../../imgs/middle_content_text.jpg) repeat-y; width:494px; height:auto; float:left;  } 
+.content_text_bottom { background: url(../../imgs/bottom_content_text.jpg) no-repeat; width:494px; height:31px; float:left;  clear:both; margin-bottom:30px;  } 
+
+.footer_box { background:url(../../imgs/content_footer.png) no-repeat; width:962px; height:37px; margin:0 auto; clear:both; margin-top:-10px; margin-bottom:60px; } 
+
+.title_news { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:30px; color:#ffffff; text-align:center; text-transform:uppercase; margin-top:10px; } 
+
+.text_news { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:12px; color:#ffffff; text-align:center;  margin-top:10px; width:470px; margin:0 auto; } 
+.sep_news { background:url(../../imgs/separa_text.png) no-repeat; width:321px; height:23px; margin:0 auto; margin-top:15px; margin-bottom:15px; } 
+
+.loginserver { background: url(../../imgs/sprites_status.png) no-repeat; width:182px; height:32px; float:left; margin-left:13px; margin-top:10px; } 
+.gameserver { background: url(../../imgs/sprites_status.png) no-repeat; width:182px; height:32px; float:left; margin-left:13px; margin-top:10px; }
+.playerson { background: url(../../imgs/sprites_status.png) no-repeat -0px -80px; width:182px; height:32px; float:left; margin-left:13px; margin-top:10px; }
+
+.text_status { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:14px; color:#b8b19f; line-height:32px; margin-left:10px; float:left; } 
+
+.icon_online { background:url(../../imgs/icon_online.png) no-repeat; width:24px; height:24px; float:right; margin-right:8px; margin-top:5px; } 
+
+.icon_offline { background:url(../../imgs/icon_offline.png) no-repeat; width:24px; height:24px; float:right; margin-right:8px; margin-top:5px; } 
+.text_playerson { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:14px; font-weight:bold; color:#e2aa1b; float:right; margin-right:20px; line-height:32px;} 
+
+ 
+ .text-footer { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#CCC; text-align:center; padding-top:30px; text-transform:uppercase; text-shadow:1px 1px 1px #000; clear:both; } 
+
+.developed {font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; color:#CCC; text-align:left; text-transform:uppercase;  float:left;}
+.align-developed { width:170px; margin:0 auto; margin-top:5px; }  
+
+.link-footer { text-decoration:none; color:#09F; } 
+.link-footer:hover { color:#0CF; }  
+
+.logoicp { background:url(../../imgs/icplogo.png) no-repeat; width:41px; height:41px; float:left; margin-top:-13px; margin-left:10px; } 
+.autorize { font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:9px; text-align:center; color:#FFF; text-shadow:1px 1px 1px #000; clear:both; margin-bottom:15px;} 
+
+.PopBoxImageSmall { border: none 0px #000000; cursor: url("../../../../../images/miscs/magplus.cur"), pointer; }
+.PopBoxImageLarge { border: solid 2px #1b222c; cursor: url("../../../../../images/miscs/magminus.cur"), pointer; }
+.PopBoxImageShrink { cursor: url("../../../../../images/miscs/magminus.cur"), pointer; }
+.PopBoxImageLink { cursor: pointer; }
+.PopBoxImageMove { border: 2px solid #000000; cursor: pointer; }
+
+input { width:350px; height:30px; background:#292929; border:solid 1px #717171; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size:13px; color:#CCC; text-transform:uppercase; text-align:center; margin-top:5px; } 
+
+#btn_form { width:350px; height:30px; } 
+#btn_form:hover { cursor:pointer; background:#DB7E15; color:black; border:solid 1px #803908; } 
+
+.patch_download { background:url(../../imgs/patch_download.png) no-repeat; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.patch_download:hover { background-position: -0px -46px; } 
+
+.client_download { background:url(../../imgs/patch_download.png) no-repeat; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.client_download:hover { background-position: -0px -46px; } 
+
+.rank_toppvp { background:url(../../imgs/sprites_rankings.png) no-repeat; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.rank_toppvp:hover { background-position: -0px -46px; } 
+
+.rank_toppk { background:url(../../imgs/sprites_rankings.png) no-repeat -0px -92px; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.rank_toppk:hover { background-position: -0px -138px; } 
+
+.rank_olympiads { background:url(../../imgs/sprites_rankings.png) no-repeat -0px -184px; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.rank_olympiads:hover { background-position: -0px -230px; } 
+
+
+.rank_castles { background:url(../../imgs/sprites_rankings.png) no-repeat -0px -276px; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.rank_castles:hover { background-position: -0px -322px; } 
+
+
+.rank_raidbosses { background:url(../../imgs/sprites_rankings.png) no-repeat -0px -368px; width:202px; height:46px; margin:0 auto; margin-top:10px; margin-bottom:3px; } 
+.rank_raidbosses:hover { background-position: -0px -414px; } 
+

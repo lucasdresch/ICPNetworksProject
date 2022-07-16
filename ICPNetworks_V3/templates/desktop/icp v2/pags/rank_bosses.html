@@ -1,0 +1,62 @@
+<div id="titulo_meio"><h2>Bosses Status</h2></div>
+
+<div style="padding:0px 15px;">
+	O Raid Boss Status informa o status de todos os Raid Boss, caso esteja morto, indica sua data e hora de respawn.<br><br>
+	Cada restart atualiza a ferramenta.<br>
+</div>
+
+<br>
+<h2>Grand Boss Status</h2>
+<br>
+
+<div style="width:460px; margin:0 auto;">
+	<div class="rank_borda rank_title" style="width:140px;">
+		Nome
+	</div>
+	<div class="rank_borda rank_title" style="width:90px;">
+		Status
+	</div>
+	<div class="rank_borda rank_title" style="width:218px;">
+		Respawn
+	</div>
+	<!-- BEGIN BLOCK_RANK_BOSSES -->
+		<div class="rank_borda" style="width:140px; height:133px;">
+			{RANK_BOSS_NAME}<br>
+			<img  alt="{RANK_BOSS_NAME}" src="images/bosses/{RANK_BOSS_NAME}.jpg" width="130" height="113" style="border:1px solid #999; margin-bottom:10px;" pbsrc="images/bosses/{RANK_BOSS_NAME}.jpg" pbCaption="{RANK_BOSS_NAME} - Status: {RANK_BOSS_STATUS} - Respawn: {RANK_BOSS_RESPAWN}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');">
+		</div>
+		<div class="rank_borda" style="width:90px; height:133px; line-height:133px;">
+			{RANK_BOSS_STATUS}
+		</div>
+		<div class="rank_borda" style="width:218px; height:133px; line-height:133px;">
+			{RANK_BOSS_RESPAWN}
+		</div>
+	<!-- END BLOCK_RANK_BOSSES -->
+	<div style="float:left; width:100%; padding-top:30px;"></div>
+	
+	<br>
+	<br>
+	<h2>Raid Boss Status</h2>
+	<br>
+	
+	<div class="rank_borda rank_title" style="width:229px;">
+		Nome
+	</div>
+	<div class="rank_borda rank_title" style="width:69px;">
+		Status
+	</div>
+	<div class="rank_borda rank_title" style="width:150px;">
+		Respawn
+	</div>
+	<!-- BEGIN BLOCK_RAID_BOSSES -->
+		<div class="rank_borda" style="width:229px;">
+			{RANK_BOSS_NAME}
+		</div>
+		<div class="rank_borda" style="width:69px;">
+			{RANK_BOSS_STATUS}
+		</div>
+		<div class="rank_borda" style="width:150px;">
+			{RANK_BOSS_RESPAWN}
+		</div>
+	<!-- END BLOCK_RAID_BOSSES -->
+	<div style="float:left; width:100%; padding-top:20px;"></div>
+</div>

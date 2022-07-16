@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="29001" name="Queen Ant" title="" level="40" type="BigBoss" />
+	<npc id="29006" name="Core" title="" level="50" type="BigBoss" />
+	<npc id="29014" name="Orfen" title="" level="50" type="BigBoss" />
+	<npc id="29019" name="Antharas" title="" level="79" type="BigBoss" />
+	<npc id="29020" name="Baium" title="" level="75" type="BigBoss" />
+	<npc id="29022" name="Zaken" title="" level="60" type="BigBoss" />
+	<npc id="29028" name="Valakas" title="" level="85" type="BigBoss" />
+	<npc id="29030" name="Fenril Hound Kerinne" title="Family of Valakas" level="84" type="RaidBoss" />
+	<npc id="29033" name="Fenril Hound Freki" title="Family of Valakas" level="84" type="RaidBoss" />
+	<npc id="29036" name="Fenril Hound Uruz" title="Family of Valakas" level="84" type="RaidBoss" />
+	<npc id="29037" name="Fenril Hound Kinaz" title="Family of Valakas" level="84" type="RaidBoss" />
+	<npc id="29040" name="Wings of Flame Ixion" title="Gatekeeper of Valakas" level="84" type="RaidBoss" />
+	<npc id="29045" name="Frintezza" title="" level="85" type="BigBoss" />
+	<npc id="29046" name="Scarlet van Halisha" title="" level="85" type="BigBoss" />
+	<npc id="29047" name="Scarlet van Halisha" title="" level="85" type="BigBoss" />
+	<npc id="29056" name="Ice Fairy Sirra" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="29060" name="Captain of the Ice Queen's Royal Guard" title="Raid Boss" level="59" type="RaidBoss" />
+	<npc id="29062" name="Andreas Van Halter" title="Seer of Pagan" level="80" type="BigBoss" />
+	<npc id="29065" name="Sailren" title="Sealed Evil Power" level="80" type="BigBoss" />
+	<npc id="29066" name="Antharas" title="" level="79" type="BigBoss" />
+	<npc id="29067" name="Antharas" title="" level="79" type="BigBoss" />
+	<npc id="29068" name="Antharas" title="" level="85" type="BigBoss" />
+	<npc id="29095" name="Gordon" title="Knight of Destruction" level="80" type="RaidBoss" />
+	<npc id="29096" name="Anais" title="Lord of Splendor" level="80" type="RaidBoss" />
+	<npc id="29099" name="Baylor" title="Warden" level="83" type="BigBoss" />
+	<npc id="25797" name="Meanas Anor" title="Lord of Destruction" level="70" type="RaidBoss" />
+	<npc id="25794" name="Kernon" title="Lord of Destruction" level="75" type="RaidBoss" />
+	<npc id="25790" name="Varka's Hero Shadith" title="Lord of Destruction" level="80" type="RaidBoss" />
+	<npc id="25793" name="Doom Blade Tanatos" title="Lord of Destruction" level="72" type="RaidBoss" />
+	<npc id="25787" name="Ketra's Hero Hekaton" title="Lord of Destruction" level="80" type="RaidBoss" />
+	<npc id="25784" name="Rayito the Looter" title="Lord of Destruction" level="37" type="RaidBoss" />
+	<npc id="25782" name="Nellis' Vengeful Spirit" title="Lord of Destruction" level="39" type="RaidBoss" />
+	<npc id="25779" name="Betrayer of Urutu Freki" title="Lord of Destruction" level="25" type="RaidBoss" />
+	<npc id="25776" name="Earth Protector Panathen" title="Lord of Destruction" level="43" type="RaidBoss" />
+	<npc id="25773" name="Beacon of Blue Sky" title="Lord of Destruction" level="45" type="RaidBoss" />
+	<npc id="25770" name="Ketra Commander Atis" title="Lord of Destruction" level="49" type="RaidBoss" />
+	<npc id="25767" name="Carnage Lord Gato" title="Lord of Destruction" level="50" type="RaidBoss" />
+	<npc id="22326" name="Hellinark" title="Naia's Guardian" level="81" type="RaidBoss" />
+	<npc id="18808" name="Dark Shaman Varangka" title="" level="82" type="RaidBoss" />
+	<npc id="29180" name="Freya" title="Ice Queen" level="85" type="BigBoss" />
+	<npc id="29179" name="Freya" title="Ice Queen" level="85" type="BigBoss" />
+	<npc id="29178" name="Freya" title="Ice Queen" level="85" type="BigBoss" />
+	<npc id="29177" name="Freya" title="Ice Queen" level="85" type="BigBoss" />
+	<npc id="25766" name="Ancient Drake" title="Lord of Destruction" level="60" type="RaidBoss" />
+	<npc id="29150" name="Ekimus" title="Lord of Immortality" level="82" type="RaidBoss" />
+	<npc id="29118" name="Beleth" title="" level="83" type="BigBoss" />
+	<npc id="25700" name="Glakias" title="Archery Knight Captain" level="85" type="RaidBoss" />
+	<npc id="25701" name="Anais" title="Master of Splendor" level="84" type="RaidBoss" />
+	<npc id="25718" name="Emerald Horn" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25719" name="Dust Rider" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25720" name="Bleeding Fly" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25721" name="Blackdagger Wing" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25722" name="Shadow Summoner" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25723" name="Spike Slasher" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25724" name="Muscle Bomber" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25725" name="Drake Lord" title="Raid Boss" level="85" type="RaidBoss" />
+	<npc id="25726" name="Behemoth Leader" title="Raid Boss" level="85" type="RaidBoss" />
+	<npc id="25727" name="Dragon Beast" title="Raid Boss" level="85" type="RaidBoss" />
+	<npc id="25735" name="Greyclaw Kutus" title="Lord of Destruction" level="23" type="RaidBoss" />
+	<npc id="25738" name="Lead Tracker Sharuk" title="Lord of Destruction" level="23" type="RaidBoss" />
+	<npc id="25741" name="Sukar Wererat Chief" title="Lord of Destruction" level="21" type="RaidBoss" />
+	<npc id="25744" name="Ikuntai" title="Lord of Destruction" level="25" type="RaidBoss" />
+	<npc id="25747" name="Zombie Lord Crowl" title="Lord of Destruction" level="25" type="RaidBoss" />
+	<npc id="25750" name="Zombie Lord Ferkel" title="Lord of Destruction" level="20" type="RaidBoss" />
+	<npc id="25753" name="Guillotine Warden" title="Lord of Destruction" level="35" type="RaidBoss" />
+	<npc id="25754" name="Fire Lord Shadar" title="Lord of Destruction" level="35" type="RaidBoss" />
+	<npc id="25757" name="Soul Collector Acheron" title="Lord of Destruction" level="35" type="RaidBoss" />
+	<npc id="25760" name="Lord Ishka" title="Lord of Destruction" level="60" type="RaidBoss" />
+	<npc id="25763" name="Demon Kuri" title="Lord of Destruction" level="59" type="RaidBoss" />
+	<npc id="25001" name="Greyclaw Kutus" title="Raid Boss" level="23" type="RaidBoss" />
+	<npc id="25004" name="Turek Mercenary Captain" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25007" name="Retreat Spider Cletu" title="Raid Boss" level="42" type="RaidBoss" />
+	<npc id="25010" name="Furious Thieles" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25013" name="Ghost of Peasant Leader" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25016" name="The 3rd Underwater Guardian" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25019" name="Pan Dryad" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25020" name="Breka Warlock Pastu" title="Raid Boss" level="34" type="RaidBoss" />
+	<npc id="25023" name="Stakato Queen Zyrnna" title="Raid Boss" level="34" type="RaidBoss" />
+	<npc id="25026" name="Katu Van Leader Atui" title="Raid Boss" level="49" type="RaidBoss" />
+	<npc id="25029" name="Atraiban" title="Raid Boss" level="53" type="RaidBoss" />
+	<npc id="25032" name="Eva's Guardian Millenu" title="Raid Boss" level="58" type="RaidBoss" />
+	<npc id="25035" name="Shilen's Messenger Cabrio" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25038" name="Tirak" title="Raid Boss" level="28" type="RaidBoss" />
+	<npc id="25041" name="Remmel" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25044" name="Barion" title="Raid Boss" level="47" type="RaidBoss" />
+	<npc id="25047" name="Karte" title="Raid Boss" level="49" type="RaidBoss" />
+	<npc id="25050" name="Verfa" title="Raid Boss" level="51" type="RaidBoss" />
+	<npc id="25051" name="Rahha" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25054" name="Kernon" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25057" name="Biconne of Blue Sky" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25060" name="Unrequited Kael" title="Raid Boss" level="24" type="RaidBoss" />
+	<npc id="25063" name="Chertuba of Great Soul" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25064" name="Wizard of Storm Teruk" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25067" name="Captain of Red Flag Shaka" title="Raid Boss" level="52" type="RaidBoss" />
+	<npc id="25070" name="Enchanted Forest Watcher Ruell" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25073" name="Bloody Priest Rudelto" title="Raid Boss" level="69" type="RaidBoss" />
+	<npc id="25076" name="Princess Molrang" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25079" name="Cat's Eye Bandit" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25082" name="Leader of Cat Gang" title="Raid Boss" level="39" type="RaidBoss" />
+	<npc id="25085" name="Timak Orc Chief Ranger" title="Raid Boss" level="44" type="RaidBoss" />
+	<npc id="25088" name="Crazy Mechanic Golem" title="Raid Boss" level="43" type="RaidBoss" />
+	<npc id="25089" name="Soulless Wild Boar" title="Raid Boss" level="59" type="RaidBoss" />
+	<npc id="25092" name="Korim" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25095" name="Elf Renoa" title="Raid Boss" level="29" type="RaidBoss" />
+	<npc id="25098" name="Sejarr's Servitor" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25501" name="Boss Akata" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25504" name="Nellis' Vengeful Spirit" title="Raid Boss" level="39" type="RaidBoss" />
+	<npc id="25506" name="Rayito the Looter" title="Raid Boss" level="37" type="RaidBoss" />
+	<npc id="25509" name="Dark Shaman Varangka " title="Raid Boss" level="53" type="RaidBoss" />
+	<npc id="25512" name="Gigantic Chaos Golem" title="Raid Boss" level="52" type="RaidBoss" />
+	<npc id="25514" name="Queen Shyeed" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25523" name="Plague Golem" title="Raid Boss" level="73" type="RaidBoss" />
+	<npc id="25524" name="Flamestone Giant" title="Raid Boss" level="76" type="RaidBoss" />
+	<npc id="25527" name="Uruka" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25528" name="Tiberias" title="Prime Inspector" level="22" type="RaidBoss" />
+	<npc id="25531" name="Darnel" title="Torture Maiden" level="81" type="RaidBoss" />
+	<npc id="25532" name="Kechi" title="Fire" level="82" type="RaidBoss" />
+	<npc id="25534" name="Tears" title="Ice" level="83" type="RaidBoss" />
+	<npc id="25539" name="Typhoon" title="Raid Boss" level="81" type="RaidBoss" />
+	<npc id="25540" name="Demon Prince" title="Raid Boss" level="83" type="RaidBoss" />
+	<npc id="25542" name="Ranku" title="Raid Boss" level="83" type="RaidBoss" />
+	<npc id="25544" name="Tully" title="Steel Citadel" level="83" type="RaidBoss" />
+	<npc id="25302" name="Ketra's Commander Tayr" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25305" name="Ketra's Chief Brakki" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25306" name="Soul of Fire Nastron" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25309" name="Varka's Hero Shadith" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25312" name="Varka's Commander Mos" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25315" name="Varka's Chief Horus" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25316" name="Soul of Water Ashutar" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25319" name="Ember" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25322" name="Demon's Agent Falston" title="Raid Boss" level="66" type="RaidBoss" />
+	<npc id="25325" name="Flame of Splendor Barakiel" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25328" name="Eilhalder von Hellmann" title="Raid Boss" level="71" type="RaidBoss" />
+	<npc id="25333" name="Anakazel" title="Invaders' Leader" level="28" type="RaidBoss" />
+	<npc id="25334" name="Anakazel" title="Invaders' Leader" level="38" type="RaidBoss" />
+	<npc id="25335" name="Anakazel" title="Invaders' Leader" level="48" type="RaidBoss" />
+	<npc id="25336" name="Anakazel" title="Invaders' Leader" level="58" type="RaidBoss" />
+	<npc id="25337" name="Anakazel" title="Invaders' Leader" level="68" type="RaidBoss" />
+	<npc id="25338" name="Anakazel" title="Invaders' Leader" level="78" type="RaidBoss" />
+	<npc id="25352" name="Giant Wasteland Basilisk" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25354" name="Gargoyle Lord Sirocco" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25357" name="Sukar Wererat Chief" title="Raid Boss" level="21" type="RaidBoss" />
+	<npc id="25360" name="Tiger Hornet" title="Raid Boss" level="26" type="RaidBoss" />
+	<npc id="25362" name="Tracker Leader Sharuk" title="Raid Boss" level="23" type="RaidBoss" />
+	<npc id="25365" name="Patriarch Kuroboros" title="Raid Boss" level="26" type="RaidBoss" />
+	<npc id="25366" name="Kuroboros' Priest" title="Raid Boss" level="23" type="RaidBoss" />
+	<npc id="25369" name="Soul Scavenger" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25372" name="Discarded Guardian" title="Raid Boss" level="20" type="RaidBoss" />
+	<npc id="25373" name="Malex Herald of Dagoniel " title="Raid Boss" level="21" type="RaidBoss" />
+	<npc id="25375" name="Zombie Lord Farakelsus" title="Raid Boss" level="20" type="RaidBoss" />
+	<npc id="25378" name="Madness Beast" title="Raid Boss" level="20" type="RaidBoss" />
+	<npc id="25380" name="Kaysha Herald of Icarus" title="Raid Boss" level="21" type="RaidBoss" />
+	<npc id="25383" name="Revenant of Sir Calibus" title="Raid Boss" level="34" type="RaidBoss" />
+	<npc id="25385" name="Evil Spirit Tempest" title="Raid Boss" level="36" type="RaidBoss" />
+	<npc id="25388" name="Red Eye Captain Trakia" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25391" name="Nurka's Messenger" title="Raid Boss" level="33" type="RaidBoss" />
+	<npc id="25392" name="Captain of Queen's Royal Guards" title="Raid Boss" level="32" type="RaidBoss" />
+	<npc id="25394" name="Premo Prime" title="Raid Boss" level="38" type="RaidBoss" />
+	<npc id="25395" name="Archon Suscepter" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25398" name="Eye of Beleth" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25202" name="Krokian Padisha Sobekk" title="Raid Boss" level="74" type="RaidBoss" />
+	<npc id="25205" name="Ocean Flame Ashakiel" title="Raid Boss" level="76" type="RaidBoss" />
+	<npc id="25208" name="Water Couatle Ateka" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25211" name="Sebek" title="Raid Boss" level="36" type="RaidBoss" />
+	<npc id="25214" name="Fafurion's Page Sika" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25217" name="Cursed Clara" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25220" name="Death Lord Hallate" title="Raid Boss" level="73" type="RaidBoss" />
+	<npc id="25223" name="Soul Collector Acheron" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25226" name="Roaring Lord Kastor" title="Raid Boss" level="62" type="RaidBoss" />
+	<npc id="25229" name="Storm Winged Naga" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25230" name="Timak Seer Ragoth" title="Raid Boss" level="57" type="RaidBoss" />
+	<npc id="25233" name="Spirit of Andras the Betrayer" title="Raid Boss" level="69" type="RaidBoss" />
+	<npc id="25234" name="Ancient Weird Drake" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25235" name="Vanor Chief Kandra" title="Raid Boss" level="72" type="RaidBoss" />
+	<npc id="25238" name="Abyss Brukunt" title="Raid Boss" level="59" type="RaidBoss" />
+	<npc id="25241" name="Harit Hero Tamash" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25244" name="Last Lesser Giant Olkuth" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25245" name="Last Lesser Giant Glaki" title="Raid Boss" level="78" type="RaidBoss" />
+	<npc id="25248" name="Doom Blade Tanatos" title="Raid Boss" level="72" type="RaidBoss" />
+	<npc id="25249" name="Palatanos of Horrific Power" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25252" name="Palibati Queen Themis" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25255" name="Gargoyle Lord Tiphon" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25256" name="Taik High Prefect Arak" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25259" name="Zaken's Butcher Krantz" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25260" name="Iron Giant Totem" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25263" name="Kernon's Faithful Servant Kelone" title="Raid Boss" level="67" type="RaidBoss" />
+	<npc id="25266" name="Bloody Empress Decarbia" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25269" name="Beast Lord Behemoth" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25272" name="Partisan Leader Talakin" title="Raid Boss" level="28" type="RaidBoss" />
+	<npc id="25273" name="Carnamakos" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25276" name="Death Lord Ipos" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25277" name="Lilith's Witch Marilion" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25280" name="Pagan Watcher Cerberon" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25281" name="Anakim's Nemesis Zakaron" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25282" name="Death Lord Shax" title="Raid Boss" level="75" type="RaidBoss" />
+	<npc id="25283" name="Lilith" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25286" name="Anakim" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25290" name="Daimon the White-Eyed" title="Raid Boss" level="78" type="RaidBoss" />
+	<npc id="25293" name="Hestia" title="Guardian Deity of the Hot Springs" level="78" type="RaidBoss" />
+	<npc id="25296" name="Icicle Emperor Bumbalump" title="Raid Boss" level="74" type="RaidBoss" />
+	<npc id="25299" name="Ketra's Hero Hekaton" title="Raid Boss" level="80" type="RaidBoss" />
+	<npc id="25102" name="Shacram" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25103" name="Sorcerer Isirr" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25106" name="Ghost of the Well Lidia" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25109" name="Antharas Priest Cloe" title="Raid Boss" level="74" type="RaidBoss" />
+	<npc id="25112" name="Agent of Beres Meana" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25115" name="Icarus Sample 1" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25118" name="Guilotine" title="Warden of the Execution Grounds" level="35" type="RaidBoss" />
+	<npc id="25119" name="Messenger of Fairy Queen Berun" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25122" name="Refugee Hopeful Leo" title="Raid Boss" level="56" type="RaidBoss" />
+	<npc id="25125" name="Fierce Tiger King Angel" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25126" name="Longhorn Golkonda" title="Raid Boss" level="79" type="RaidBoss" />
+	<npc id="25127" name="Langk Matriarch Rashkos" title="Raid Boss" level="24" type="RaidBoss" />
+	<npc id="25128" name="Vuku Grand Seer Gharmash" title="Raid Boss" level="33" type="RaidBoss" />
+	<npc id="25131" name="Carnage Lord Gato" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25134" name="Leto Chief Talkin" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25137" name="Beleth's Seer Sephia" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25140" name="Hekaton Prime" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25143" name="Fire of Wrath Shuriel" title="Raid Boss" level="78" type="RaidBoss" />
+	<npc id="25146" name="Serpent Demon Bifrons" title="Raid Boss" level="21" type="RaidBoss" />
+	<npc id="25149" name="Zombie Lord Crowl" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25152" name="Flame Lord Shadar" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25155" name="Shaman King Selu" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25158" name="King Tarlk" title="Raid Boss" level="48" type="RaidBoss" />
+	<npc id="25159" name="Paniel the Unicorn" title="Raid Boss" level="54" type="RaidBoss" />
+	<npc id="25162" name="Giant Marpanak" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25163" name="Roaring Skylancer" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25166" name="Ikuntai" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25169" name="Ragraman" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25170" name="Lizardmen Leader Hellion" title="Raid Boss" level="38" type="RaidBoss" />
+	<npc id="25173" name="Tiger King Karuta" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25176" name="Black Lily" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25179" name="Guardian of the Statue of Giant Karum" title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25182" name="Demon Kurikups" title="Raid Boss" level="59" type="RaidBoss" />
+	<npc id="25185" name="Tasaba Patriarch Hellena" title="Raid Boss" level="35" type="RaidBoss" />
+	<npc id="25188" name="Apepi" title="Raid Boss" level="30" type="RaidBoss" />
+	<npc id="25189" name="Cronos's Servitor Mumu" title="Raid Boss" level="34" type="RaidBoss" />
+	<npc id="25192" name="Earth Protector Panathen" title="Raid Boss" level="43" type="RaidBoss" />
+	<npc id="25198" name="Fafurion's Herald Lokness" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25199" name="Water Dragon Seer Sheshark" title="Raid Boss" level="72" type="RaidBoss" />
+	<npc id="25401" name="Skyla" title="Raid Boss" level="32" type="RaidBoss" />
+	<npc id="25404" name="Corsair Captain Kylon" title="Raid Boss" level="33" type="RaidBoss" />
+	<npc id="25407" name="Lord Ishka " title="Raid Boss" level="60" type="RaidBoss" />
+	<npc id="25410" name="Road Scavenger Leader" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25412" name="Necrosentinel Royal Guard" title="Raid Boss" level="47" type="RaidBoss" />
+	<npc id="25415" name="Nakondas" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25418" name="Dread Avenger Kraven" title="Raid Boss" level="44" type="RaidBoss" />
+	<npc id="25420" name="Orfen's Handmaiden" title="Raid Boss" level="48" type="RaidBoss" />
+	<npc id="25423" name="Fairy Queen Timiniel" title="Raid Boss" level="61" type="RaidBoss" />
+	<npc id="25426" name="Betrayer of Urutu Freki" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25429" name="Mammon Collector Talos" title="Raid Boss" level="25" type="RaidBoss" />
+	<npc id="25431" name="Flamestone Golem" title="Raid Boss" level="44" type="RaidBoss" />
+	<npc id="25434" name="Bandit Leader Barda" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25437" name="Timak Orc Gosmos" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25438" name="Thief Kelbar" title="Raid Boss" level="44" type="RaidBoss" />
+	<npc id="25441" name="Evil Spirit Cyrion" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25444" name="Enmity Ghost Ramdal" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25447" name="Immortal Savior Mardil" title="Raid Boss" level="71" type="RaidBoss" />
+	<npc id="25450" name="Cherub Galaxia" title="Raid Boss" level="79" type="RaidBoss" />
+	<npc id="25453" name="Meanas Anor" title="Raid Boss" level="70" type="RaidBoss" />
+	<npc id="25456" name="Mirror of Oblivion" title="Raid Boss" level="49" type="RaidBoss" />
+	<npc id="25460" name="Deadman Ereve" title="Raid Boss" level="51" type="RaidBoss" />
+	<npc id="25463" name="Harit Guardian Garangky" title="Raid Boss" level="56" type="RaidBoss" />
+	<npc id="25467" name="Gorgolos" title="Raid Boss" level="64" type="RaidBoss" />
+	<npc id="25470" name="Last Titan Utenus" title="Raid Boss" level="66" type="RaidBoss" />
+	<npc id="25473" name="Grave Robber Kim" title="Raid Boss" level="52" type="RaidBoss" />
+	<npc id="25475" name="Ghost Knight Kabed" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25478" name="Shilen's Priest Hisilrome" title="Raid Boss" level="65" type="RaidBoss" />
+	<npc id="25481" name="Magus Kenishee" title="Raid Boss" level="53" type="RaidBoss" />
+	<npc id="25484" name="Zaken's Chief Mate Tillion" title="Raid Boss" level="50" type="RaidBoss" />
+	<npc id="25487" name="Water Spirit Lian" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25490" name="Gwindorr" title="Raid Boss" level="40" type="RaidBoss" />
+	<npc id="25493" name="Eva's Spirit Niniel" title="Raid Boss" level="55" type="RaidBoss" />
+	<npc id="25496" name="Fafurion's Envoy Pingolpin" title="Raid Boss" level="52" type="RaidBoss" />
+	<npc id="25498" name="Fafurion's Henchman Istary" title="Raid Boss" level="45" type="RaidBoss" />
+	<npc id="25603" name="Darion" title="" level="84" type="RaidBoss" />
+	<npc id="25609" name="Epidos" title="Naia Shambler" level="82" type="RaidBoss" />
+	<npc id="25610" name="Epidos" title="Naia Shambler" level="82" type="RaidBoss" />
+	<npc id="25611" name="Epidos" title="Naia Shambler" level="82" type="RaidBoss" />
+	<npc id="25612" name="Epidos" title="Naia Shambler" level="82" type="RaidBoss" />
+	<npc id="25623" name="Valdstone" title="Master Rider" level="80" type="RaidBoss" />
+	<npc id="25624" name="Rok" title="King of Birds" level="80" type="RaidBoss" />
+	<npc id="25625" name="Enira" title="Banshee Queen" level="80" type="RaidBoss" />
+	<npc id="25626" name="Dius" title="Deadman of Destruction" level="80" type="RaidBoss" />
+	<npc id="25634" name="Cohemenes" title="Soul Collector" level="81" type="RaidBoss" />
+	<npc id="25648" name="Awakened Ancient Fighter" title="Raid Boss" level="81" type="RaidBoss" />
+	<npc id="25649" name="Awakened Ancient Executor" title="Raid Boss" level="81" type="RaidBoss" />
+	<npc id="25651" name="Awakened Ancient Prophet" title="Raid Boss" level="81" type="RaidBoss" />
+	<npc id="25652" name="Awakened Ancient Prophet" title="Raid Boss" level="81" type="RaidBoss" />
+	<npc id="25659" name="Kanadis Guide" title="Invading Forces" level="77" type="RaidBoss" />
+	<npc id="25660" name="Kanadis Guide" title="Invading Forces" level="80" type="RaidBoss" />
+	<npc id="25661" name="Kanadis Guide" title="Invading Forces" level="83" type="RaidBoss" />
+	<npc id="25671" name="Queen Shyeed" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25674" name="Gwindorr" title="Raid Boss" level="83" type="RaidBoss" />
+	<npc id="25677" name="Water Spirit Lian" title="Raid Boss" level="84" type="RaidBoss" />
+	<npc id="25680" name="Giant Marpanak" title="Raid Boss" level="82" type="RaidBoss" />
+	<npc id="25681" name="Gorgolos" title="Raid Boss" level="82" type="RaidBoss" />
+	<npc id="25684" name="Last Titan Utenus" title="Raid Boss" level="83" type="RaidBoss" />
+	<npc id="25687" name="Hekaton Prime" title="Raid Boss" level="83" type="RaidBoss" />
+	<npc id="25690" name="Aenkinel" title="Invader of Dream" level="81" type="RaidBoss" />
+	<npc id="25691" name="Aenkinel" title="Invader of Dream" level="81" type="RaidBoss" />
+	<npc id="25692" name="Aenkinel" title="Invader of Dream" level="81" type="RaidBoss" />
+	<npc id="25693" name="Aenkinel" title="Invader of Dream" level="81" type="RaidBoss" />
+	<npc id="25694" name="Aenkinel" title="Invader of Dream" level="82" type="RaidBoss" />
+	<npc id="25695" name="Aenkinel" title="Invader of Dream" level="84" type="RaidBoss" />
+	<npc id="25696" name="Taklacan" title="Bistakon" level="85" type="RaidBoss" />
+	<npc id="25697" name="Torumba" title="Reptilikon" level="85" type="RaidBoss" />
+	<npc id="25698" name="Dopagen" title="Kokracon" level="85" type="RaidBoss" />
+	<npc id="25699" name="Glakias" title="Archery Knight Captain" level="85" type="RaidBoss" />
+</list>

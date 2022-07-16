@@ -1,0 +1,69 @@
+<div class="style-content">
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+<div align="center">
+<h1>Register</h1>
+After registering you will receive a message in your email account to make confirmation for your account.
+<form method="post" action="" name="cadastro" onSubmit="return validar()">
+	<table border="0" align="center" cellpadding="5" cellspacing="5" style="color:#c6a67b;">
+		<tr>
+			<td width="50%" align="center">
+				Login:
+			</td>
+			<td width="50%">
+				<input type="text" name="username" maxlength="16" id="input-forms" class="user" value=""  />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				E-mail:
+			</td>
+			<td>
+				<input type="text" id="input-forms" name="email" class="user"  />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				Senha:
+			</td>
+			<td>
+				<input type="password" name="password1" maxlength="16" class="pass" id="input-forms"  />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				Re-Senha:
+			</td>
+			<td>
+				<input type="password" name="password2" maxlength="16" class="pass" id="input-forms"/>
+			</td>
+		</tr>
+		<tr>
+			<th colspan="2">
+				<br><input name="accept_rules" type="checkbox" id="divulgacao" value="ACEITO" checked="checked" style="width:20px; height:20px; float:left; margin-top:0px;" />
+				<span style="font-size:12px; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-weight:100;">Li e aceito todas as regras do servidor <b>{SITE_NAME}</b>.</span>
+				
+			</th>
+		</tr>
+		<tr>
+			<th colspan="2">
+				<input type="submit" class="entrar" name="register" id="btn-forms" value="Criar Conta" />
+			</th>
+		</tr>
+	</table>
+</form>
+</div>
+</div>

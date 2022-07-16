@@ -1,0 +1,563 @@
+/* layout css by Hugo Felipe */
+
+body,td,th {
+	color: #666;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+}
+body {
+	background-color: #ecf5fa;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+:link,:visited {
+	text-decoration: none;
+} 
+:focus,:active {
+	outline: 0;
+} 
+ul,ol {
+	list-style-type: none;
+	list-style-image: none;
+
+} 
+h1,h2,h3,h4,h5,h6,pre,code {
+	font-size:1em;
+} 
+a img,:link img,:visited img, fieldset {
+	 border:none 
+} address {
+	 font-style:normal
+}
+a {
+	color: #555;
+	cursor: pointer;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000;
+}
+
+p  {
+	 margin: 0 0 15px;
+	  line-height: 1.7em;
+}
+#estrutura {
+	width:950px;
+	height:auto;
+	margin:auto;
+}
+#header {
+	width:950px;
+	height:200px;
+	margin:auto;
+}
+.server-title {
+	margin-top:50px;
+	font-size:72px;
+	margin-left:70px;
+	text-shadow:1px 1px #ffffff;
+	color: #333;
+}
+.server-titledesc {
+	margin-top:-10px;
+	font-size:30px;
+	margin-left:30px;
+	text-transform: uppercase;
+	text-shadow:1px 1px #ffffff;
+	color: #333;
+}
+#shows {
+	width:940px;
+	height:300px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#conteudo {
+	width:950px;
+	height:auto;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.65);
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border: 1px solid rgb(240,240,240);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.desc-conteudo {
+	width:940px;
+	height:auto;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 7px;
+	margin-right: auto;
+}
+.left {
+	border: 1px solid rgb(240,240,240);
+	background-color: #FFFFFF;
+	width: 645px;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	-webkit-transition:-webkit-box-shadow .2s ease-out;
+	margin-top: 5px;	
+}
+.left:hover {
+	-webkit-box-shadow: 0px 0px 16px #0d0a08;  
+	-moz-box-shadow: 0px 0px 16px #0d0a08;  
+	box-shadow: 0px 0px 16px #0d0a08;
+}
+.right {
+	width:290px;
+	height:auto;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+#galeria {
+	width:950px;
+	height:90px;
+	background-color: #262525;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	float: left;
+	border: 1px solid rgba(153,153,153,0.8);
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+#galeria:hover {
+	background-color: #302E2E;
+    -webkit-box-shadow: 0px 0px 16px #0d0a08;  
+	-moz-box-shadow: 0px 0px 16px #0d0a08;  
+	box-shadow: 0px 0px 16px #0d0a08;
+}
+#galeria ul li {
+	display:inline;
+	float:left;
+	list-style-type: none;
+	margin-top: -5px;
+	font-family: "Myriad Pro";
+	padding-right: 20px;
+}
+.creditos {
+	padding-top: 10px;
+	color: #CCC;
+	text-transform: capitalize;
+	font-size: 14px;
+	text-align: center;
+}
+.sub-creditos {
+	width: auto;
+	padding-top: 8px;
+	padding-left: 40px;
+	font-size: 13px;
+	color: #FFF;
+	font-style: italic;
+}
+.sub-creditos2 {
+	width: auto;
+	padding-top: 8px;
+	padding-left: 90px;
+	font-size: 12px;
+	color: #999;
+}
+.show-left {
+	border: 1px solid rgb(240,240,240);
+    background-color: #FFFFFF;
+	width: 645px;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
+	-webkit-transition:-webkit-box-shadow .2s ease-out;
+	height: 300px;
+}
+
+.show-left:hover {
+	-webkit-box-shadow: 0px 0px 16px #0d0a08;  
+	-moz-box-shadow: 0px 0px 16px #0d0a08;  
+	box-shadow: 0px 0px 16px #0d0a08;
+}
+.show-right {
+	width:290px;
+	height:300px;
+}
+.top-conteudo {
+	width:950px;
+	height:20px;
+	margin:auto;
+	background-color: #000000;
+	background-image: url(../../images/top-conteudo.gif);
+	background-repeat: no-repeat;
+	opacity:0.8;
+}
+.bottom-conteudo {
+	width:950px;
+	height:10px;
+	margin:auto;
+	float: left;
+	background-color: #000000;
+	background-image: url(../../images/bottom-conteudo.gif);
+	background-repeat: no-repeat;
+}
+
+/* Inicio menu vertical */
+
+.status-vert {
+	width:290px;
+	height:auto;
+	margin-top:-15px;
+	margin-bottom:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.status-vert ul li {
+	padding-bottom: 5px;
+	background-image: url(../../images/inline.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-left: -45px;
+	height: auto;
+	width: 290px;
+	list-style-position: inside;
+	list-style-type: square;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+.status-vert ul li a {
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	color: #333;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.status-vert ul li a:hover {
+	color: #666;
+}
+.title-vert {
+	color: #333;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	}
+
+/* Final menu vertical */
+.text-form {
+	font-size: 12px;
+	color: #000;
+	padding-left: 15px;
+}
+.form {
+	width:260px;
+	height:auto;
+	margin:auto;
+}
+.painel {
+	width:275px;
+	height:auto;
+	margin:auto;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	border: 1px solid #bebebe;
+	background-color: #EEE;
+	background-position: top;
+}
+.vote-menu {
+	width:275px;
+	height:auto;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	border: 1px solid #bebebe;
+	background-color: #EEE;
+	background-position: top;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.vote-menu li {
+	margin-left: 20px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.painel-li {
+	list-style-position: inside;
+	list-style-type: square;
+	padding-left: 15px;
+	color: #CCC;
+	text-transform: capitalize;
+}
+.twitter {
+	height: auto;
+	width: 275px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	border: 1px solid #bebebe;
+	background-color: rgb(35,35,35);
+}
+#bg-vert {
+	width:275px;
+	height:auto;
+	margin:auto;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+	border: 1px solid #bebebe;
+	background-position: top;
+}
+
+/* titulo das paginas */
+
+#titulo_pg {
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:#000;
+}
+
+/* Cadastro */
+
+#alinha_pagina {
+	margin:0 auto;
+	width: 340px;
+	border: none;
+	color:#444;
+	}
+
+#cadastro_corpo {
+	float: left;
+	margin:0 auto;
+	width:335px;
+	padding: 5px;
+	}
+
+#cadastro_descricao {
+	float:left;
+	width:105px;
+	height:27px;
+	line-height:27px;
+	padding-top:20px;
+	}
+
+#cadastro_espaco {
+	float:left;
+	width:20px;
+	height:27px;
+	line-height:27px;
+	padding-top:20px;
+	}
+	
+#cadastro_form {
+	float:left;
+	width:175px;
+	height:27px;
+	line-height:27px;
+	padding-top:20px;
+	}
+
+#cadastro_checa {
+	float:left;
+	width:340px;
+	padding-top:20px;
+	text-align:center;
+	}
+	
+/* remember */
+
+#container_formulario {
+ width:400px;
+ margin:0 auto;
+ text-align:center;
+}
+
+/* mensagem de sucesso */
+
+#sucesso {
+	width:350px;
+	margin:0 auto;
+	border:2px dashed #458B00;
+	background-color:#90EE90;
+	color:#000;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+/* rankings */
+
+#ranking {
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+}
+#ranking_pos {
+	width:100px;
+	float:left;
+}
+#ranking_nome {
+	width:200px;
+	float:left;
+}
+#ranking_clan {
+	width:200px;
+	float:left;
+}
+#ranking_pvp_pk {
+	width:100px;
+	float:left;
+}
+#ranking_pos_ {
+	width:100px;
+	float:left;
+}
+#ranking_nome_ {
+	width:200px;
+	float:left;
+}
+#ranking_clan_ {
+	width:200px;
+	float:left;
+}
+#ranking_pvp_pk_ {
+	width:100px;
+	float:left;
+}
+
+/* Olimpiadas */
+
+#oly {
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+}
+#oly_nome {
+	width:200px;
+	float:left;
+}
+#oly_points {
+	width:100px;
+	float:left;
+}
+#oly_lutas {
+	width:100px;
+	float:left;
+}
+#oly_racas {
+	width:200px;
+	float:left;
+}
+#oly_nome_ {
+	width:200px;
+	float:left;
+}
+#oly_points_ {
+	width:100px;
+	float:left;
+}
+#oly_lutas_ {
+	width:100px;
+	float:left;
+}
+#oly_racas_ {
+	width:200px;
+	float:left;
+}
+
+/* Castelos */
+
+#castelos_grande {
+	float: center;
+	width: 616px;
+	border: none;
+	color:#000;
+	}
+	
+#castelos_estrutura {
+	float: left;
+	width: 170px;
+	border: 1px solid #000000;
+	padding: 10px;
+	background-color: #EEEEEE;
+	}
+	
+#castelos_pequeno {
+	float: left;
+	width: 170px;
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+	background-image: url(../../images/colunafalsa.png);
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+#castle_name {
+	background-color: #CCC;
+}
+	
+#castelos_pequeno2 {
+	float: left;
+	width: 170px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #000000;
+	background-color: #999;
+	}
+	
+#castelos_text_dentro {
+	float: left;
+	width: 85px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	}
+	
+#castelos_linha {
+	float: left;
+	width: 100%;
+	text-align: center;
+	}
+	
+#castelos_coluna {
+	float: left;
+	width: 20px;
+	height: 20px;
+	}
+
+#logado {
+	padding-bottom:20px;
+}
+
+#logado_text {
+	padding-left:15px;
+}
+.centro_conteudo {
+	width:635px;
+	height:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}

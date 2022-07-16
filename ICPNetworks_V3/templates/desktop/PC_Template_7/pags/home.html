@@ -1,0 +1,31 @@
+<div class="title-vert">Notícias</div>
+<style>
+#news {
+	width:520px;
+	margin:0 auto;
+	font-size:12px;
+}
+
+#news_title {
+	height:49px;
+	padding-top:28px;
+	background-image:url(../imgs/news.png);
+	background-repeat: no-repeat;
+	font-size:16px;
+}
+</style>
+<!-- BEGIN BLOCK_NEWS -->
+	<div id="news">
+		<div id="news_title">
+			<div style="float:left; padding-left:75px; width:350px; text-align:left;">{NEWS_TITLE}</div>
+		</div>
+		<div style="text-align:left;">
+			{NEWS_TEXT_FULL}
+		</div>
+		<div style="margin-top:5px; margin-bottom:5px; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40); filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4; opacity: 0.4; width:100%; height:1px; border-bottom:1px dotted #999;"></div>
+		<div style="width:515px; height:35px;">
+			<div style="text-align:left; float:left; width:370px;">Postado por: {NEWS_AUTHOR}</div>
+			<div style="text-align:right; float:left; width:145px;">Data: {NEWS_DATE}</div>
+		</div>
+	</div>
+<!-- END BLOCK_NEWS -->

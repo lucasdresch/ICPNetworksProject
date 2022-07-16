@@ -1,0 +1,27 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+	<h1 class="h2">Server news</h1>
+</div>
+<!-- BEGIN BLOCK_NEWS -->
+	<div class="card mb-3">
+		<div class="card-header">
+			{NEWS_TITLE}
+		</div>
+		<div class="card-body">
+			<div style="float:left; margin: 0px 10px 5px 0px;">
+				<img src="images/profiles/{NEWS_PROFILE}" class="news-profile"><br>
+				<div class="news-author">By: {NEWS_AUTHOR}</div>
+			</div>
+			<p class="card-text">{NEWS_TEXT_FULL}</p>
+		</div>
+		<div class="card-footer text-muted">
+			<div class="row">
+				<div class="col-7" style="line-height:40px; font-size:12px;">
+					On date: {NEWS_DATE}
+				</div>
+				<div class="col" style="text-align:right;">
+					<a href="./" class="btn btn-primary">Go back</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END BLOCK_NEWS -->

@@ -1,0 +1,4 @@
+<?php
+$createTable[25] = "CREATE TABLE `icp_tickets_ban` (`id` int UNSIGNED NOT NULL AUTO_INCREMENT, `login` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL, `blockedLogin` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL, `blockedDate` timestamp NULL DEFAULT NULL, `unblockedLogin` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL, `unblockedDate` timestamp NULL DEFAULT NULL, `status` int UNSIGNED NOT NULL DEFAULT 0, PRIMARY KEY (`id`) USING BTREE) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;";
+$tableName[25] = "icp_tickets_ban";
+$columnsValue[25] = array();

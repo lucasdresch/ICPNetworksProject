@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta data -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="{SITE_NAME}, lineage2, lineage 2, line age, lineage II, server, servidor, melhor servidor, top200, topservers, interlude, freya, epilogue, hf, gracia final, high five, top server, rank lineage, ranking lineage, h5, goddess of destruction, icpnetworks, l2jbrasil">
+		<meta name="description" content="{SITE_NAME} - Servidor privado de Lineage II">
+		<meta name="copyright" content="ICPNetworks">
+		<meta name="author" content="www.icpnetworks.com.br / Design & desenvolvimentos web">
+		<meta name="email" content="contato@icpnetworks.com.br">
+		<!-- title -->
+		<title>{SITE_TITLE}</title>
+		<!-- CSS -->
+		<link type="text/css" href="{TEMPLATE}styles/css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="images/miscs/favicon.ico">
+		<!-- JavaScripts -->
+		<script type="text/javascript" src="{TEMPLATE}styles/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/PopBox.js"></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/jquery.lightbox_me.js" charset="utf-8"></script>
+		<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script src="http://malsup.github.io/jquery.cycle.all.js"></script>
+		<script type="text/javascript">
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2617026385223468');
+			fbq('track', 'PageView');
+			fbq('track', 'UserPanel');
+			popBoxWaitImage.src = "images/miscs/spinner40.gif";
+			popBoxRevertImage = "images/miscs/magminus.gif";
+			popBoxPopImage = "images/miscs/magplus.gif";
+			$(function() {
+				function launch() {
+					$('#sign_up').lightbox_me({centered: true, onLoad: function() { $('#sign_up').find('input:first').focus()}});
+				}
+				$('#try-1').click(function(e) {
+					$("#sign_up").lightbox_me({centered: true, onLoad: function() {
+						$("#sign_up").find("input:first").focus();
+					}});
+		
+					e.preventDefault();
+				});
+				$('table tr:nth-child(even)').addClass('stripe');
+			});
+			$(document).ready(function(){
+				$("#ocultar").click(function () {
+					$("#bar_fixed").hide(2000);
+					$("#ocultar").hide("slow");
+					$("#mostrar").show("slow");
+				});
+				$("#mostrar").click(function () {
+					$("#bar_fixed").show(2000);
+					$("#mostrar").hide("slow");
+					$("#ocultar").show("slow");
+				});
+			});
+			$(document).ready(function(){
+				$(".hide-show2").click(function () {
+					$("#box_ranking").show(0);
+					$(".hide-show2").hide(0);
+					$(".hide-show").show("slow");
+				});
+			});
+			$(document).ready(function(){
+				$(".hide-show").click(function () {
+				$("#box_ranking").hide(0);
+					$(".hide-show").hide(0);
+				$(".hide-show2").show("slow");
+				});
+			});
+			$(document).ready(function(){
+				$('#slide').cycle();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="top-nav"></div>
+		<div id="bar_fixed">
+			<div class="align-boxes">
+				<a href="index.php?icp=cadastro"><div class="btn-register"></div></a>
+				<a href="index.php?icp=download"><div class="download-patch"></div></a>
+				<a href="/forum"><div class="btn-forum"></div></a>
+			</div>
+		</div>
+		<div class="container">
+			<a href="#" id="ocultar" style="display:none; float:right;"><div class="quick_access"></div></a>
+			<a href="#" id="mostrar" style="float:right;" ><div class="quick_access"></div></a>
+			<div class="logo"></div>
+			<div class="content">
+				<!-- menu -->
+				<div class="menu">
+					<a id="home" href="index.php?icp=home"></a>
+					<a id="downloads" href="index.php?icp=download"></a>
+					<a id="rules" href="index.php?icp=regras"></a>
+					<a id="staff" href="index.php?icp=staff"></a>
+					<a id="server" href="index.php?icp=info"></a>
+					<a id="contact" href="index.php?icp=contato"></a>
+					<div class="menu_fix"></div>
+				</div> 
+				<div class="sidebar-left">
+					<div class="box_control">
+						<div class="title_control"></div>
+						<div class="sep"></div>
+						<!-- BEGIN BLOCK_ICP_PANEL_CONNECTED -->
+							<center><br><span style="color:#F5DEB3;">ACCESS:</span><br><br><a target='_blank' href='?icp=panel' id="btn-forms" style="padding:5px 10px;text-decoration:none;font-size:24px;">Control Panel</a><br><br></center>
+						<!-- END BLOCK_ICP_PANEL_CONNECTED -->
+						<!-- BEGIN BLOCK_ICP_PANEL_DISCONNECTED -->
+							<form method="post">
+								<div class="icon-login"></div>
+								<input type="text" name="username" id="input_login" placeholder="USERNAME/LOGIN">
+								<div class="icon-password"></div>
+								<input type="password" name="password" id="input_password" placeholder="PASSWORD/SECURITY">
+								<input type="submit" name="login" id="btn_login" value="">
+							</form>
+							<a id="links" href="index.php?icp=remember"> FORGOT YOUR PASSWORD ? </a>
+							<a id="links" href="index.php?icp=cadastro"> REGISTER HERE ! </a>
+						<!-- END BLOCK_ICP_PANEL_DISCONNECTED -->
+					</div>
+					<div class="quick_menu">
+						<div class="title_quick"></div>
+						<div class="sep"></div>
+						<a id="link_quick" href="#">graphics</a>
+						<a id="link_quick" class="hide-show" style="display:none;"> Ranking</a>
+						<a id="link_quick" class="hide-show2"> Ranking</a>
+						<div class="box_rankings" id="box_ranking">
+							<a id="link_quick2" href="index.php?icp=ranking&type=top_pvp">TOP PVP</a>
+							<a id="link_quick2" href="index.php?icp=ranking&type=top_pk">TOP PK</a>
+							<a id="link_quick2" href="index.php?icp=ranking&type=top_heros">Heroes</a>
+							<a id="link_quick2" href="index.php?icp=ranking&type=olympiads">Olympiads</a>
+						</div>
+						<a id="link_quick" href="#">  Olympics</a>
+						<a id="link_quick" href="index.php?icp=ranking&type=castles_siege"> castles sieges</a>
+						<a id="link_quick" href="#"> Territory War</a>
+						<a id="link_quick" href="index.php?icp=ranking&type=boss_status"> Raid Boss</a>
+						<a id="link_quick" href="#"> Informer</a>
+					</div>
+					<a href="index.php?icp=doacao"><div class="donate-btn"></div></a>
+					<div class="title_face"></div><br>
+					<iframe src="https://discord.com/widget?id={DISCORD}&theme=dark" width="250" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+				</div><!-- SIDEBAR LEFT -->
+				<div class="content-box">
+					{PAGES}
+				</div><!-- CONTENT-BOX -->
+				<div class="sidebar-right">
+					<div class="box_control">
+						<div class="title_control"></div>
+						<div class="sep"></div>
+						<div class="ls">LOGINSERVER :
+							<!-- BEGIN BLOCK_LOGIN_SERVER_ONLINE -->
+								<span style='color:#11DF22; font-weight:bold;'>ONLINE</span>
+							<!-- END BLOCK_LOGIN_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_LOGIN_SERVER_OFFLINE -->
+								<span style="color:#900; font-weight:bold;">OFFLINE</span>
+							<!-- END BLOCK_LOGIN_SERVER_OFFLINE -->
+						</div>
+						<div class="sep"></div>
+						<div class="ls">GAMESERVER :
+							<!-- BEGIN BLOCK_GAME_SERVER_ONLINE -->
+								<span style='color:#11DF22; font-weight:bold;'>ONLINE</span>
+							<!-- END BLOCK_GAME_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_GAME_SERVER_OFFLINE -->
+								<span style="color:#900; font-weight:bold;">OFFLINE</span>
+							<!-- END BLOCK_GAME_SERVER_OFFLINE -->
+						</div>
+						<!-- BEGIN BLOCK_SERVER_DETAILS -->
+							<div class="sep"></div>
+							<div class="ls">PLAYERS ON :  <span style="color:#e3ca22; font-weight:bold;">{SERVER_TOTAL_ONLINE}</span></div>
+							<div class="sep"></div>
+							<div class="ls">POPULATION : <span style="color:#e3ca22; font-weight:bold;">{SERVER_TOTAL_CHARACTERS}</span></div>
+						<!-- END BLOCK_SERVER_DETAILS -->
+					</div>
+					<div class="quick_menu">
+						<div class="title_guide"></div>
+						<div class="sep"></div>
+						<a id="link_quick" href="#">How to level up?</a>
+						<a id="link_quick" href="#">As crafting?</a>
+						<a id="link_quick" href="#">Where do you drop items?</a>
+						<a id="link_quick" href="index.php?icp=eventos">events</a>
+						<a id="link_quick" href="#">Castle Siege</a>
+						<a id="link_quick" href="#">Chaotic Zones</a>
+						<a id="link_quick" href="#">Quests</a>
+					</div>
+					<div class="vote-btn"></div>
+					<div class="title_face"></div>
+					<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F{FACEBOOK}&amp;width=200&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:258px; background:#3A2215; border-radius:10px; margin-top:20px; margin-left:25px;" allowTransparency="true"></iframe>
+				</div><!-- SIDEBAR RIGHT -->
+			</div><!-- CONTENT -->
+			<div class="footer_box"></div>
+		</div><!-- CONTAINER -->
+		<div class="footer_credits">
+			<div class="text-footer">
+				{SITE_NAME} © - All rights reserved<br>
+				Developed by <a id="footer-style" href="http://icpnetworks.com.br">ICPNetworks</a><br>
+				It is the copying or reproduction of any content of this website without the prior permission of the authors prohibited.
+			</div>
+		</div>
+	</body>
+</html>

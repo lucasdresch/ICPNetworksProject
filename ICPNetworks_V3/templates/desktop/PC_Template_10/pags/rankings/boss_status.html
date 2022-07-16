@@ -1,0 +1,44 @@
+<div id="centro-pags">
+	<h1>Raid bosses</h1>
+	<div class="colun-title-subpags"><a href="index.php">Home</a> > <a href="#">Raid Bosses</a></div>
+	<br />
+	Aqui você pode visualizar todos os Raid Bosses sejam eles normais bosses ou grand bosses, caso algum deles esteja morto, aqui você podera visualizar a sua data e hora de respawn.<br><br>
+	A cada restart do servidor o site é atualizado automaticamente.<br><br>
+	<div id="ranking" style="text-align:center; font-size:20px; color:#fff;">
+		Grand Boss Status
+	</div>
+	<br>
+	<div id="boss_estrutura">
+		<div id="boss_nome" style="background-color:#E8E8E8; height:20px; line-height:20px;">Nome</div>
+		<div id="boss_level" style="background-color:#E8E8E8; height:20px; line-height:20px;">Level</div>
+		<div id="boss_status" style="background-color:#E8E8E8; height:20px; line-height:20px;">Status</div>
+		<div id="boss_respawn" style="background-color:#E8E8E8; height:20px; line-height:20px;">Respawn</div>
+		<!-- BEGIN BLOCK_RANK_BOSSES -->
+			<div id="boss_nome" style="border-top:none;">
+				{RANK_BOSS_NAME}<br>
+				<img  alt="{RANK_BOSS_NAME}" src="images/bosses/{RANK_BOSS_NAME}.jpg" width="150" height="113"  pbsrc="images/bosses/{RANK_BOSS_NAME}.jpg" pbCaption="{RANK_BOSS_NAME} - Status: {RANK_BOSS_STATUS} - Respawn: {RANK_BOSS_RESPAWN}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');">
+			</div>
+			<div id="boss_level" style="border-top:none; line-height:135px;">{RANK_BOSS_LEVEL}</div>
+			<div id="boss_status" style="border-top:none; line-height:135px;">{RANK_BOSS_STATUS}</div>
+			<div id="boss_respawn" style="border-top:none; line-height:135px;">{RANK_BOSS_RESPAWN}</div>
+		<!-- END BLOCK_RANK_BOSSES -->
+	</div>
+	<div style="float:left; width:100%; padding-top:30px;">
+		<div id="ranking" style="text-align:center; font-size:20px; color:#fff;">
+			Raid Boss Status
+		</div><br />
+	</div>
+	<div id="boss_estrutura">
+		<div id="boss_nome" style="background-color:#E8E8E8; width:220px; height:20px; line-height:20px;">Nome</div>
+		<div id="boss_level" style="background-color:#E8E8E8; height:20px; line-height:20px;">Level</div>
+		<div id="boss_status" style="background-color:#E8E8E8; height:20px; line-height:20px;">Status</div>
+		<div id="boss_respawn" style="background-color:#E8E8E8; width:115px; height:20px; line-height:20px;">Respawn</div>
+		<!-- BEGIN BLOCK_RAID_BOSSES -->
+			<div id="boss_nome" style="border-top:none; width:220px; height:30px; line-height:30px;">{RANK_BOSS_NAME}</div>
+			<div id="boss_level" style="border-top:none; height:30px; line-height:30px;">{RANK_BOSS_LEVEL}</div>
+			<div id="boss_status" style="border-top:none; height:30px; line-height:30px;">{RANK_BOSS_STATUS}</div>
+			<div id="boss_respawn" style="border-top:none; width:115px; height:30px; line-height:30px;">{RANK_BOSS_RESPAWN}</div>
+		<!-- END BLOCK_RAID_BOSSES -->
+		<div style="float:left; width:100%; height:20px;"></div>
+	</div>
+</div>

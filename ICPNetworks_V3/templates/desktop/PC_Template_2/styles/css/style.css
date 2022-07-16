@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; } 
+
+body { background:url(../../imgs/bg.jpg) #200a03 no-repeat top center; }
+
+.logo_div {
+width:960px;
+ height:auto;
+ margin:0 auto;
+}
+
+.logo {
+background:url(../../imgs/logo.png) no-repeat;
+width:269px;
+height:121px;
+float:left;
+margin-left:30px;
+margin-top:140px;
+}
+
+.menu { width:947px; height:190px; margin:0 auto; margin-top:5px; z-index:9999; position:relative; } 
+
+ /*background:url(../../imgs/menu.png) no-repeat -3px -0px;*/
+ .menu li { list-style:none; } 
+ 
+.menu ul#nav { list-style:none; z-index:999; }
+.menu ul#nav li { list-style:none; position:relative; float:left; font-family:trajan Pro; font-size:13px; padding:0px 0px 0px 0px; list-style:none; line-height:290%;  opacity:1; position:relative; z-index:999; }  
+
+.menu ul#nav li:hover ul#subnav { display:block; position:absolute; top:102px; left:-1px; background:#fccc4c; width:219px; border-radius:0 0 5px 5px;  opacity:1; height:auto; border:solid 1px black;}
+.menu ul#nav li:hover ul#subnav li  {  height:37px; width:247px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:0.8;  }
+.menu ul#nav li:hover ul#subnav li:hover  { height:37px; width:170px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:1; background:#C60; color:white; }
+
+
+.menu ul#nav li:hover ul#subnav li a { font-family:Tahoma, Geneva, sans-serif; font-weight:bold; text-decoration:none; color:black; display:block; }
+
+.menu ul#nav li ul#subnav { display:none; position:absolute; top:60px; left:0; background:#963; width:160px;  height:50px;  }
+
+
+#home { background:url(../../imgs/menu.png) no-repeat -3px -0px; height:142px; width:135px; float:left; } 
+#home:hover  { background-position:-6px -208px;} 
+#register { background:url(../../imgs/menu.png) no-repeat -138px -0px; height:102px; width:110px; float:left; } 
+#register:hover  { background-position:-141px -208px; } 
+#downloads { background:url(../../imgs/menu.png) no-repeat -244px -0px; height:102px; width:135px; float:left; } 
+#downloads:hover  {  background-position:-247px -208px; } 
+#info { background:url(../../imgs/menu.png) no-repeat -381px -0px; height:102px; width:170px; float:left; } 
+#info:hover  {  background-position:-384px -208px;} 
+#rank { background:url(../../imgs/menu.png) no-repeat -550px -0px; height:102px; width:110px; float:left; } 
+#rank:hover  {  background-position:-553px -208px; } 
+#donations { background:url(../../imgs/menu.png) no-repeat -661px -0px; height:102px; width:135px; float:left; } 
+#donations:hover  {  background-position:-664px -208px; } 
+#forum { background:url(../../imgs/menu.png) no-repeat -788px -0px; height:142px; width:150px; float:left; } 
+#forum:hover  {   background-position:-791px -208px; } 
+
+
+.container { width:898px; height:auto; margin:0 auto; } 
+.content-bg { background:url(../../imgs/bg_content.jpg) repeat-y -0px -0px; margin:0 auto; float:left; width:900px; height:auto; margin-top:-100px; margin-bottom:60px;} 
+
+.sidebar-left { width:220px; height:auto; float:left; margin-left:10px; margin-top:30px; } 
+.sidebar-right { width:220px; height:auto; float:right; margin-right:16px;  margin-top:30px; } 
+
+.box-01 { background:url(../../imgs/sprites.jpg) repeat; background-position:-21px -35px;; width:223px; height:60px; } 
+.box-02 { background:url(../../imgs/sprites.jpg) repeat; background-position:-21px -35px;; width:223px; height:60px; margin-top:15px; } 
+.midle-box {  background:url(../../imgs/midle-box.jpg) repeat; width:223px; height:auto; margin-top:-5px; } 
+.midle-box { background-position:-8px -0px; z-index:1; } 
+.bottom-box { background:url(../../imgs/bottom-box.jpg) no-repeat -5px -0px; width:223px; height:38px; margin-top:-16px;} 
+/* no-repeat -21px -341px; width:223px; height:30px; } */
+
+
+#icon-login { background:url(../../imgs/sprites.jpg) no-repeat -360px -46px; width:38px; height:32px; float:left; margin-left:15px; }
+#icon-email { background:url(../../imgs/sprites.jpg) no-repeat -360px -46px; width:38px; height:32px; float:left; margin-left:15px; }
+#icon-pass { background:url(../../imgs/sprites.jpg) no-repeat -360px -87px; width:38px; height:32px; float:left; margin-left:15px; margin-top:15px; }
+#login { background:url(../../imgs/sprites.jpg) no-repeat -398px -46px; width:145px; height:32px; border:none; font-family:Tahoma, Geneva, sans-serif; font-size:13px; text-align:center; color:white; }  
+#password { background:url(../../imgs/sprites.jpg) no-repeat -398px -46px; width:145px; height:32px; border:none; margin-top:15px; font-family:Tahoma, Geneva, sans-serif; font-size:13px; text-align:center; color:white; }
+#btn_login { background:url(../../imgs/sprites.jpg) no-repeat -397px -128px; width:122px; height:32px; border:none; margin-left:50px; margin-top:10px; opacity:0.80; }
+#btn_login:hover { opacity:1; cursor:pointer; }   
+
+.btn_rank { background:url(../../imgs/btn_rank.png) no-repeat; width:182px; height:32px; margin:0 auto; margin-bottom:5px; z-index:1; position:relative;} 
+.btn_rank:hover { background-position: -0px -32px; cursor:pointer; } 
+
+
+.links { font-family:"charlemagne Std"; font-size:10px; text-align:center; color:#e7b273; margin-top:15px; line-height:1px; } 
+.links:hover { text-decoration:underline;  } 
+.links2 { font-family:"charlemagne Std"; font-size:10px; text-align:center; color:#e7b273;  } 
+.links2:hover { text-decoration:underline; } 
+
+.title-control { background:url(../../imgs/titles.png) no-repeat; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+.title-utilies { background:url(../../imgs/titles.png) no-repeat -0px -27px; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+.title-donate { background:url(../../imgs/titles.png) no-repeat -0px -57px; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+.title-status { background:url(../../imgs/titles.png) no-repeat -0px -87px; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+.title-face { background:url(../../imgs/titles.png) no-repeat -0px -117px; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+.title-vote { background:url(../../imgs/titles.png) no-repeat -0px -147px; width:160px; height:22px; float:left; margin-top:15px; margin-left:25px; } 
+
+.img_vote { background:url(../../imgs/vote.jpg) no-repeat; width:195px; height:84px; margin:0 auto; }
+.img_donate { background:url(../../imgs/donate.png) no-repeat -0px -0px; width:200px; height:76px; margin:0 auto; } 
+
+
+
+
+.content { width:408px; float:left; margin-left:10px; margin-top:32px; } 
+
+
+ 
+dv.pics { display: none; }
+div.pics img {
+    height: 200px; // altura das imagens
+    width: 300px; // largura das imagens
+    overflow:hidden; // limitando a div
+}
+
+
+
+.conteudo { margin-bottom:70px;  width:408px; height:auto; float:left; background:#3e170b;} 
+
+fieldset {
+	border:1px solid #505050;
+	text-align:left;
+	background: rgba(0,0,0,0.2);
+	font-size:13px;
+	padding:10px;
+	margin:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 15px #555;
+	-webkit-box-shadow: 0px 0px 15px #555;
+}
+
+legend {
+	color:#CD9B1D;
+	text-shadow:1px 1px #000;
+	font-weight:bold;
+	margin-left:15px;
+}
+
+#rank_borda {
+	border:1px dotted #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-border-radius: 4px;
+	float:left;
+	text-align:center;
+	margin: 1px;
+	line-height:16px;
+	min-height:16px;
+}
+
+.align-conteudo { float:left;  } 
+.text-title-conteudo { font-family:"charlemagne Std"; font-size:18px; color:#e4a96f; padding-left:25px; padding-top:15px;} 
+.title-conteudo { background:url(../../imgs/sprites.jpg) no-repeat -89px -527px; width:400px; clear:both; height:62px; margin:0 auto; margin-left:6px; margin-top:20px;  } 
+
+.text-conteudo { width:390px; font-family:Tahoma, Geneva, sans-serif; font-size:13px; text-align:left; margin-left:8px; margin-bottom:10px; color:#e4a96f; } 
+
+
+.login { font-family:"charlemagne Std"; font-size:14px; color:#e4a96f; padding-left:15px; } 
+.gameserver {font-family:"charlemagne Std"; font-size:14px; color:#e4a96f; padding-left:15px; } 
+.players {font-family:"charlemagne Std"; font-size:14px; color:#e4a96f; padding-left:15px; } 
+.populacao {font-family:"charlemagne Std"; font-size:14px; color:#e4a96f; padding-left:15px; } 
+
+
+.align-footer {width:925px; margin:0 auto;}
+.footer { background:url(../../imgs/footer.jpg) no-repeat; width:925px; height:163px; clear:both; float:left;  margin:-60px auto; } 
+
+.text-rank { font-family:"charlemagne Std"; font-size:13px; color:#b67e69; text-align:center; padding-top:10px; } 
+
+.bg_footer { background:url(../../imgs/footer_bg.jpg) no-repeat top center; clear:both; height:479px; } 
+
+.icpnetworks  { background:url(../../imgs/icpnetworks.png) no-repeat; width:273px; height:73px;  float:left; margin-top:230px; } 
+
+/* INICIO GALERIA DE FOTOS */
+
+.PopBoxImageSmall
+{
+	border: none 0px #000000;
+	cursor: url("../../../../../images/miscs/magplus.cur"), pointer;
+}
+.PopBoxImageLarge
+{
+	border: solid 2px #1b222c;
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageShrink
+{
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageLink
+{
+	cursor: pointer;
+}
+.PopBoxImageMove
+{
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+/* FINAL GALERIA DE FOTOS */

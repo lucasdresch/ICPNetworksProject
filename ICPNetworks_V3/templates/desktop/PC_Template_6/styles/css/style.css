@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+
+font-family: trajan Pro;
+src:url(../font/trajanproregular.ttf);
+}
+
+body { background:url(../../imgs/bg.jpg) repeat; overflow-x:hidden; font-family:Tahoma, Geneva, sans-serif; font-size:13px; } 
+
+#back_pt_01 { background:url(../../imgs/bg_01.jpg) no-repeat top center; height:444px; } 
+
+.pt_menu_01 { background: url(../../imgs/stripes_01.png) no-repeat -0 -10px; height:70px; width:83px; float:left; }
+
+
+
+.menu ul#nav { list-style:none; z-index:999; }
+.menu ul#nav li { list-style:none; position:relative; float:left; font-family:trajan Pro; font-size:13px; padding:0px 0px 0px 0px; list-style:none; line-height:290%;  opacity:1; position:relative; z-index:999; }  
+
+.menu ul#nav li:hover ul#subnav { display:block; position:absolute; top:68px; left:-1px; background:#fccc4c; width:257px; border-radius:0 0 5px 5px;  opacity:1; height:auto; border:solid 1px black;}
+.menu ul#nav li:hover ul#subnav li  {  height:37px; width:247px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:0.8;  }
+.menu ul#nav li:hover ul#subnav li:hover  { height:37px; width:207px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:1; background:#C60; color:white; }
+
+
+.menu ul#nav li:hover ul#subnav li a { font-family:Tahoma, Geneva, sans-serif; font-weight:bold; text-decoration:none; color:black; display:block; }
+
+.menu ul#nav li ul#subnav { display:none; position:absolute; top:60px; left:0; background:#963; width:160px;  height:50px;  }
+ 
+#home { background:url(../../imgs/stripes_01.png) no-repeat -80px -10px; width:77px; height:70px; float:left;}
+#home:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -80px -10px; width:77px; height:70px; float:left; display:block;}
+
+#registro { background:url(../../imgs/stripes_01.png) no-repeat -157px -10px; width:105px; height:70px; float:left;}
+#registro:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -157px -10px; width:105px; height:70px; float:left; display:block;}
+
+#downloads { background:url(../../imgs/stripes_01.png) no-repeat -262px -10px; width:135px; height:70px; float:left;}
+#downloads:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -262px -10px; width:135px; height:70px; float:left; display:block;}
+
+#info { background:url(../../imgs/stripes_01.png) no-repeat -397px -10px; width:145px; height:70px; float:left;}
+#info:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -397px -10px; width:145px; height:70px; float:left; display:block;}
+
+#rules { background:url(../../imgs/stripes_01.png) no-repeat -542px -10px; width:90px; height:70px; float:left;}
+#rules:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -542px -10px; width:90px; height:70px; float:left; display:block;}
+
+
+#rankings { background:url(../../imgs/stripes_01.png) no-repeat -632px -10px; width:115px; height:70px; float:left;}
+#rankings:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -632px -10px; width:115px; height:70px; float:left; display:block;}
+
+#donations { background:url(../../imgs/stripes_01.png) no-repeat -747px -10px; width:120px; height:70px; float:left;}
+#donations:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -747px -10px; width:120px; height:70px; float:left; display:block;}
+
+#forum { background:url(../../imgs/stripes_01.png) no-repeat -867px -10px; width:90px; height:70px; float:left;}
+#forum:hover { background:url(../../imgs/stripes_04_menu.png) no-repeat -867px -10px; width:90px; height:70px; float:left; display:block;}
+
+.pt_menu_02{ background: url(../../imgs/stripes_01.png) no-repeat -958px -10px; height:70px; width:83px; float:left; } 
+.languages { background:url(../../imgs/stripes_01.png) no-repeat -0px -80px; width:100%; height:41px; float:left; clear:both;}
+
+
+
+.align-menu { width:1050px; margin:0 auto; padding-top:358px;}
+.align-content { width:1053px; margin:0 auto;}
+.pt_content { background:url(../../imgs/stripes_01.png) no-repeat -0px -141px; clear:both; height:65px; width:100%;} 
+.pt2_content { background:url(../../imgs/line.jpg) repeat -0px -195px; clear:both; height:auto; width:100%; margin-top:0px; float:left;} 
+
+
+.content { float:left; width:400px; margin-left:13px; margin-top:-50px; } 
+
+.top-content { background:url(../../imgs/top_content.jpg) no-repeat; width:440px; height:50px; float:left; }
+
+.midle-content { background:url(../../imgs/midle_content.jpg) repeat; width:440px; height:auto; float:left; margin-top:0;} 
+
+.bottom-content { background:url(../../imgs/bottom_content.jpg) no-repeat -2px -0px; width:440px; height:80px; float:left; margin-top:0; margin-bottom:10px; clear:both; }
+
+
+
+
+.top-box { background: url(../../imgs/stripes_02.png) no-repeat -7px -4px; float:left; margin-left:60px; height:50px;  width:227px; margin-top:-50px; } 
+.top-box2 { background: url(../../imgs/stripes_02.png) no-repeat -7px -4px; float:left; height:50px;  width:227px; margin-top:0px; clear:both; margin-left:60px; } 
+
+
+.box01 { background:url(../../imgs/bg_box.jpg) repeat -2px -0px; float:left; margin-left:60px; height:auto;  width:227px; clear:both; }  
+
+.bottom-box {  background:url(../../imgs/stripes_02.png) no-repeat -7px -140px; float:left; margin-left:60px; height:40px;  width:227px; clear:both; }
+ 
+.titulo-panel { background:url(../../imgs/stripes_02.png) no-repeat -500px -16px; height:20px; width:178px;  margin:0 auto; margin-top:15px;} 
+.titulo-rank { background:url(../../imgs/stripes_02.png) no-repeat -540px -44px; height:20px; width:91px;  margin:0 auto; margin-top:15px;} 
+.titulo-galeria { background:url(../../imgs/stripes_02.png) no-repeat -535px -71px; height:20px; width:107px;  margin:0 auto; margin-top:15px;} 
+.titulo-vote { background:url(../../imgs/stripes_02.png) no-repeat -538px -145px; height:20px; width:117px;  margin:0 auto; margin-top:15px;} 
+.titulo-pvp { background:url(../../imgs/stripes_02.png) no-repeat -551px -97px; height:20px; width:90px;  margin:0 auto; margin-top:15px;} 
+.titulo-pk { background:url(../../imgs/stripes_02.png) no-repeat -560px -121px; height:20px; width:70px;  margin:0 auto; margin-top:15px;} 
+
+.btn_donate { background:url(../../imgs/stripes_02.png) no-repeat -245px -0px; width:227px; height:82px; clear:both; margin-left:60px; margin-top:-10px; float:left; margin-bottom:6px;} 
+
+.btn_rank { background:url(../../imgs/stripes_02.png) no-repeat -250px -175px; width:206px; height:32px; margin:0 auto; margin-top:5px; font-family:trajan Pro; font-weight:bold; font-size:14px; color:black; line-height:270%; opacity:0.80; } 
+.btn_rank:hover { opacity:1; } 
+
+
+
+.quad1 { width:58px; height:58px; float:left; margin-left:17px;} 
+.quad2 { width:58px; height:58px; float:left; margin-left:10px;} 
+.quad3 { width:58px; height:58px; float:left; margin-left:10px;} 
+.quad4 { width:58px; height:58px; float:left; margin-left:17px; margin-top:10px;} 
+.quad5 { width:58px; height:58px; float:left; margin-left:10px; margin-top:10px;} 
+.quad6 { width:58px; height:58px; float:left; margin-left:10px; margin-top:10px;} 
+
+
+#link-galeria { font-family:"trajan Pro"; font-size:12px; color:#bb4e15; text-align:center; text-decoration:none; float:left; margin-left:50px; margin-top:10px;  }
+#link-galeria:hover { color:#C60; }
+
+
+
+#sidebar-right { float:right; margin-right:10px; } 
+.sidebar-left { float:left;  } 
+
+
+.top-box-right { background: url(../../imgs/stripes_02.png) no-repeat -7px -4px; float:right; margin-right:60px; height:50px;  width:227px; margin-top:-50px; } 
+.top-box2-right { background: url(../../imgs/stripes_02.png) no-repeat -7px -4px; float:right; height:50px;  width:227px; margin-top:0px; clear:both; margin-right:60px; } 
+
+
+.box01-right { background:url(../../imgs/bg_box.jpg) repeat -2px -0px; float:right; margin-right:60px; height:auto;  width:227px; clear:both; }  
+
+.bottom-box-right {  background:url(../../imgs/stripes_02.png) no-repeat -7px -140px; float:right; margin-right:60px; height:40px;  width:227px; clear:both; }
+
+.vote { background:url(../../imgs/stripes_02.png) no-repeat -507px -191px; width:180px; height:84px; margin:0 auto; opacity:0.90; } 
+.vote:hover { opacity:1; }
+.text-vote { font-family:"trajan Pro"; font-size:12px; color:#FFF; margin-top:10px; } 
+
+.pos { padding:0px 6px; color:#916537; }
+.char {  padding:0px 2px; color:#916537; } 
+.quant { margin-right:10px; float:right; color:#916537; } 
+.top10 { font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#916537; clear:both; padding:6px 10px; text-align:left; background:url(../../imgs/line.png) no-repeat bottom center; font-weight:bold; opacity:0.8;}
+.line { padding-top:2px; background:url(../../imgs/line2.png) no-repeat;  }
+
+
+.footer { background:url(../../imgs/footer.jpg) no-repeat; width:1000px; height:70px; clear:both; margin-left:21px; }
+
+
+
+/* STYLES DA HOME */
+
+.icon-post { width:125px; height:125px; float:left; border:solid 1px #000; margin-left:18px; margin-bottom:20px; } 
+.text-post { font-family:"trajan Pro"; font-size:12px; color:#000; text-align:left; width:270px; float:left; margin-left:10px; } 
+.titulo-post { font-size:16px; } 
+.leiamais { font-weight:bold; text-align:right; padding-left:190px; text-decoration:none; color:#000; } 
+.leiamais:hover { color:#900; text-decoration:underline;} 
+
+.links-painel { color:#874b16; font-family:"trajan Pro"; font-size:12px; text-align:center; line-height:110%; margin-top:8px; }
+.links-painel2 { color:#874b16; font-family:"trajan Pro"; font-size:12px; text-align:center;  margin-top:4px; }
+.links-painel:hover { color:#F60; } 
+.links-painel2:hover { color:#F60; } 
+#link-cadastre {color:#c46612; } 
+#link-cadastre:hover { color:#FF0; }
+
+.stats_server { 
+font-family:"trajan Pro"; 
+font-size:13px; 
+font-weight:bold; 
+padding-top:13px; float:left;
+padding-left:70px;
+width:535px; } 
+
+.select-languages {
+font-family:"trajan Pro"; 
+font-size:13px; 
+font-weight:bold; float:left;
+padding-top:14px;
+padding-left:10px;
+padding-right:5px; } 
+
+.br { background:url(../../imgs/stripes_02.png) no-repeat -16px -233px; width:48px; height:32px; float:left; margin-top:3px; margin-left:5px; } 
+.br:hover { background:url(../../imgs/stripes_02.png) no-repeat -16px -191px; width:48px; height:32px; float:left; margin-top:3px; margin-left:5px; } 
+
+.eua { background:url(../../imgs/stripes_02.png) no-repeat -129px -233px; width:48px; height:32px; float:left; margin-top:3px; margin-left:2px; }  
+.eua:hover { background:url(../../imgs/stripes_02.png) no-repeat -129px -191px; width:48px; height:32px; float:left; margin-top:3px; margin-left:2px; }  
+
+.spa { background:url(../../imgs/stripes_02.png) no-repeat -73px -233px; width:48px; height:32px; float:left; margin-top:3px; margin-left:6px; }  
+.spa:hover { background:url(../../imgs/stripes_02.png) no-repeat -73px -191px; width:48px; height:32px; float:left; margin-top:3px; margin-left:6px; } 
+
+.line-content { background:url(../../imgs/line_content.png) no-repeat; width:390px; height:2px; margin:0 auto; margin-top:10px; clear:both; margin-bottom:10px; } 
+
+
+#style-input { width:260px; height:30px; margin:0 auto; } 
+
+#btn_input { width:120px; height:30px; border:solid 1px #000; background: #f7d626; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7d626 0%, #e17115 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7d626), color-stop(100%,#e17115)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f7d626 0%,#e17115 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f7d626 0%,#e17115 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f7d626 0%,#e17115 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f7d626 0%,#e17115 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d626', endColorstr='#e17115',GradientType=0 ); /* IE6-9 */
+font-family:"trajan Pro";
+ font-weight:bold;
+opacity:0.75;  } 
+#btn_input:hover { opacity:1; cursor:pointer; } 
+
+.credits {  width:900px; height:90px; margin:0 auto;} 
+#icp { display:block; text-decoration:none; background:url(../../imgs/credits.png) no-repeat; width:290px; height:120px; float:left; clear:both; margin-top:80px; } 
+#ncsoft { display:block; text-decoration:none; background:url(../../imgs/credits.png) no-repeat -290px -0px; width:410px; height:120px; float:left;  margin-top:80px; } 
+#seloseguro { display:block; text-decoration:none; background:url(../../imgs/credits.png) no-repeat -700px -0px; width:195px; height:120px; float:left; margin-top:80px; }
+
+
+/* INICIO GALERIA DE FOTOS */
+
+.PopBoxImageSmall
+{
+	border: none 0px #000000;
+	cursor: url("../../../../../images/miscs/magplus.cur"), pointer;
+}
+.PopBoxImageLarge
+{
+	border: solid 2px #1b222c;
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageShrink
+{
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageLink
+{
+	cursor: pointer;
+}
+.PopBoxImageMove
+{
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+/* FINAL GALERIA DE FOTOS */
+
+#rank_borda {
+	border:1px dotted #ccc;
+	float:left;
+	text-align:center;
+	margin: 1px;
+	line-height:15px;
+	height:16px;
+	background: rgba(0,0,0,0.1);
+	margin-top:1px;
+}
+#linha_rank {
+	width:400px;
+	margin:0 auto;
+}
+#titulo_rank {
+	font-weight:bold;
+	font-size:24px;
+	text-align:center;
+	width:100%;
+	margin:15px 0px;
+	font-family:"trajan Pro";
+}

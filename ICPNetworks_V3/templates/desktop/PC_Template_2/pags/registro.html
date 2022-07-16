@@ -1,0 +1,25 @@
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+<div class="title-conteudo"><div class="text-title-conteudo">Cadastro {SITE_NAME}</div></div>
+<form method="post" action="" name="cadastro" onSubmit="return validar()">
+	<div style="width:200px;margin:0 auto;margin-bottom:20px;">
+		<div id="icon-login"></div><input type="text" name="username" maxlength="16" id="login" value="" placeholder="Login" /><br>
+		<div id="icon-email" style="margin-top:15px;"></div><input type="text" id="login" style="margin-top:15px;" name="email" placeholder="Email" /><br>
+		<div id="icon-pass"></div><input type="password" id="password" name="password1" maxlength="16" class="input" placeholder="Senha" /><br>
+		<div id="icon-pass"></div><input type="password" id="password" name="password2" maxlength="16" class="input" placeholder="Confirme sua senha" /><br>
+		<input type="submit" class="submit" id="btn_login" name="register" value="Criar Conta" />
+	</div>
+</form>

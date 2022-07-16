@@ -1,0 +1,44 @@
+<div id="title"><h1 align="left">Rankings</h1></div>
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PvP" onClick="window.location='index.php?icp=ranking&type=top_pvp'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP PK" onClick="window.location='index.php?icp=ranking&type=top_pk'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Online" onClick="window.location='index.php?icp=ranking&type=top_online'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Clan" onClick="window.location='index.php?icp=ranking&type=top_clan'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Milionários" onClick="window.location='index.php?icp=ranking&type=top_adena'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Olympiads" onClick="window.location='index.php?icp=ranking&type=olympiads'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Heros" onClick="window.location='index.php?icp=ranking&type=top_heros'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="TOP Raid Points" onClick="window.location='index.php?icp=ranking&type=raid_points'">
+	<input type="button" name="remember" style="float:left; margin-left:5px; margin-top:2px;" value="Clan Halls" onClick="window.location='index.php?icp=ranking&type=clan_hall'">
+<br><br>
+<fieldset>
+	<legend>Ranking TOP Olympiads</legend>
+	<div style="width:525px; float:left;">
+		<div id="rank_borda" style="width:179px;">
+			Nome
+		</div>
+		<div id="rank_borda" style="width:100px;">
+			Pontos
+		</div>
+		<div id="rank_borda" style="width:100px;">
+			Lutas
+		</div>
+		<div id="rank_borda" style="width:130px;">
+			Classe
+		</div>
+	</div>
+	<!-- BEGIN BLOCK_RANK_OLYMPIADS -->
+		<div id="linha_rank">
+			<div id="rank_borda" style="width:179px;">
+				{RANK_OLY_NAME}
+			</div>
+			<div id="rank_borda" style="width:100px;">
+				{RANK_OLY_POINTS}
+			</div>
+			<div id="rank_borda" style="width:100px;">
+				{RANK_OLY_FIGHTS}
+			</div>
+			<div id="rank_borda" style="width:130px;">
+				{RANK_OLY_CLASS}
+			</div>
+		</div>
+	<!-- END BLOCK_RANK_OLYMPIADS -->
+</fieldset>

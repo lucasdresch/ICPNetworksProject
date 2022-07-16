@@ -1,0 +1,23 @@
+<center>
+	<div id="titulo_rank">ScreenShots</div>
+	Total de <b>{INDEX_SCREENSHOTS_TOTAL}</b> ScreenShots. Mostrando de {INDEX_SCREENSHOTS_START} até {INDEX_SCREENSHOTS_STOP}.
+</center>
+<div style="width:400px; margin:0 auto;">
+	<!-- BEGIN BLOCK_GALLERY_SCREENSHOTS -->
+		<div style="float:left; width:178px; max-height:300px; padding:11px;">
+			<div style="width:176px; border:1px solid #bbb; text-align:center; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background: rgba(0,0,0,0.2); *background-color: #1a1f26; _background-color: #1a1f26;">
+				<div style="height:30px; line-height:30px; background: rgba(255,255,255,0.25); *background-color: #111517; _background-color: #111517; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; margin-bottom:6px;">{INDEX_SCREENSHOTS_AUTHOR}</div>
+				<img alt="" src="images/screenshots/thumbs/{INDEX_SCREENSHOTS_IMG}" style="width: 163px; height: auto; max-height:150px;" pbsrc="images/screenshots/{INDEX_SCREENSHOTS_IMG}" pbCaption="Autor: {INDEX_SCREENSHOTS_AUTHOR} - Legend: {INDEX_SCREENSHOTS_LEGEND} - Date: {INDEX_SCREENSHOTS_DATE}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');" /><br>
+				<div style="background: rgba(255,255,255,0.25); *background-color: #30343b; _background-color: #30343b; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; width:163px; margin:0 auto; margin-top:10px; margin-bottom:10px; padding-top:5px; padding-bottom:5px;">
+				{INDEX_SCREENSHOTS_LEGEND}<br>
+				{INDEX_SCREENSHOTS_DATE}
+				</div>
+			</div>
+		</div>
+		{GALLERY_PAIR_SEPARATOR}
+	<!-- END BLOCK_GALLERY_SCREENSHOTS -->
+	<div style="clear:both;"></div>
+</div>
+<div style="width:445px; float:left; text-align:center; margin:10px 0px 10px 0px;">
+	{PAGINATION}
+</div>

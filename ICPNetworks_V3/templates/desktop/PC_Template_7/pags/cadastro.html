@@ -1,0 +1,56 @@
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+
+  <form method="post" action="" name="cadastro" onSubmit="return validar()">
+
+<div id="alinha_pagina">
+<br><div id="titulo_pg">Cadastro {SITE_NAME}</div>
+<div id="cadastro_corpo">
+
+<div id="cadastro_descricao">E-mail:		</div> 
+		<div id="cadastro_espaco"></div> 
+    			<div id="cadastro_form"><input type="text" id="email" name="email" style="width:180px;" />	</div> 
+                
+                
+
+<div id="cadastro_descricao">Login:		</div> 
+		<div id="cadastro_espaco"></div> 
+    			<div id="cadastro_form"><input type="text" name="username" maxlength="16" id="user" value="" style="width:180px;" />		</div> 
+                
+                
+                
+                                
+<div id="cadastro_descricao">Senha:		</div> 
+		<div id="cadastro_espaco"></div> 
+    			<div id="cadastro_form"><input type="password" name="password1" maxlength="16" style="width:180px;" />		</div> 
+                
+                
+<div id="cadastro_descricao">Re-Senha:	</div> 
+		<div id="cadastro_espaco"></div> 
+    			<div id="cadastro_form"> <input type="password" name="password2" maxlength="16" style="width:180px;" />		</div> 
+
+
+
+<div id="cadastro_checa">
+  <input name="accept_rules" type="checkbox" id="divulgacao" value="ACEITO" checked="checked" />
+        
+Li e aceito todas as regras do servidor <b>{SITE_NAME}</b>.
+   
+</div> 
+<div id="cadastro_checa" align="right">
+      <input type="submit" class="g-button-submit" name="register" value="Criar Conta" />
+</div>  </div><br />&nbsp;  </div>
+  </form>

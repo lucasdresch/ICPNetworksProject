@@ -1,0 +1,4 @@
+<?php
+$createTable[13] = "CREATE TABLE icp_prime_shop ([id] int IDENTITY(1,1) NOT NULL PRIMARY KEY,[item_id] varchar(max) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[price] int DEFAULT '0' NOT NULL,[count] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '1,' NOT NULL,[enchant] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_fire] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_water] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_wind] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_earth] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_holy] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL,[attribute_unholy] varchar(255) COLLATE Latin1_General_CI_AS DEFAULT '0,' NOT NULL)";
+$tableName[13] = "icp_prime_shop";
+$columnsValue[13] = array();

@@ -1,0 +1,76 @@
+<style type="text/css">
+	#rank_borda {
+		border:1px dotted #ccc;
+		float:left;
+		text-align:center;
+		margin: 1px;
+		line-height:15px;
+		height:16px;
+		background: rgba(0,0,0,0.1);
+		margin-top:1px;
+	}
+	#titulo_rank {
+		font-weight:bold;
+		font-size:24px;
+		text-align:center;
+		width:100%;
+		margin:15px 0px;
+		font-family:"trajan Pro";
+	}
+</style>
+<div class="title_news">Raid Boss Status</div>
+<div class="text_news">
+	<div style="padding:0px 15px;">
+		O Raid Boss Status informa o status de todos os Raid Boss, caso esteja morto, indica sua data e hora de respawn.<br><br>
+		Cada restart atualiza a ferramenta.<br>
+	</div>
+	<div id="titulo_rank">Grand Boss Status</div>
+	<div style="width:380px; margin:0 auto;">
+		<div id="rank_borda" style="width:160px; height:35px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Nome</span>
+		</div>
+		<div id="rank_borda" style="width:70px; height:35px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Status</span>
+		</div>
+		<div id="rank_borda" style="width:138px; height:35px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Respawn</span>
+		</div>
+		<!-- BEGIN BLOCK_RANK_BOSSES -->
+			<div id="rank_borda" style="width:160px; height:133px;">
+				{RANK_BOSS_NAME}<br>
+				<img  alt="{RANK_BOSS_NAME}" src="images/bosses/{RANK_BOSS_NAME}.jpg" width="150" height="113"  pbsrc="images/bosses/{RANK_BOSS_NAME}.jpg" pbCaption="{RANK_BOSS_NAME} - Status: {RANK_BOSS_STATUS} - Respawn: {RANK_BOSS_RESPAWN}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');">
+			</div>
+			<div id="rank_borda" style="width:70px; height:133px; line-height:133px;">
+				{RANK_BOSS_STATUS}
+			</div>
+			<div id="rank_borda" style="width:138px; height:133px; line-height:133px;">
+				{RANK_BOSS_RESPAWN}
+			</div>
+		<!-- END BLOCK_RANK_BOSSES -->
+		<div style="float:left; width:100%; padding-top:30px;"></div>
+		
+		<div id="titulo_rank">Raid Boss Status</div>
+		
+		<div id="rank_borda" style="width:189px; height:33px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Nome</span>
+		</div>
+		<div id="rank_borda" style="width:69px; height:33px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Status</span>
+		</div>
+		<div id="rank_borda" style="width:110px; height:33px;">
+			<span style="font-size:16px; font-weight:bold; font-family:'trajan Pro'; line-height:235%;">Respawn</span>
+		</div>
+		<!-- BEGIN BLOCK_RAID_BOSSES -->
+			<div id="rank_borda" style="width:189px; font-size:11px;">
+				{RANK_BOSS_NAME}
+			</div>
+			<div id="rank_borda" style="width:69px; font-size:12px;">
+				{RANK_BOSS_STATUS}
+			</div>
+			<div id="rank_borda" style="width:110px; font-size:12px;">
+				{RANK_BOSS_RESPAWN}
+			</div>
+		<!-- END BLOCK_RAID_BOSSES -->
+		<div style="float:left; width:100%; padding-top:30px;"></div>
+	</div>
+</div>

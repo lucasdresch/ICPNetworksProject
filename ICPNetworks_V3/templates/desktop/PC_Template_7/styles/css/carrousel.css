@@ -1,0 +1,55 @@
+/* Carrousel - Plugin Cycle Jquery - CSS & JS By Hugo */
+
+#wrap_carousel {
+	width: 645px;
+	height: 300px;
+	position: relative;
+}  
+#carousel li img {
+	width: 100%;
+	margin-top: 3px;
+}  
+#carousel li {
+	float: left;
+	overflow: hidden;
+	width: 645px;
+	height: 300px;
+	display: inline;
+	margin-bottom: 0;
+	margin-left: -40px;
+	margin-top: -15px;
+}  
+#prev,  
+#next {
+	position: absolute;
+	top: 282px;
+	cursor: pointer;
+}  
+#prev {
+	left: 10px;
+}  
+#next {  
+    right: 10px;  
+}
+.desc, .bgTransparente{
+	width:645px;
+	height:45px;
+	display:block;
+	z-index:2;
+	position:absolute;
+	bottom:0;
+	text-align:left;
+	color:#CCC;
+}
+.bgTransparente{
+	z-index:1;
+	background:#000;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}  
+
+/* Final carrousel */
+
+

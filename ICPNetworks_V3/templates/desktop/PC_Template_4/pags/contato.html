@@ -1,0 +1,105 @@
+<div id="content-wrapper">
+
+  <div class="space"></div>
+
+    <div id="content" class="left">
+       
+      <div id="content-center" class="left">
+         
+        <h1>contato</h1>
+             
+          <div style="float:left;" id="contato">
+    
+      <div style=" margin-top:20px; margin-left:0px;" class="title_contato">
+				Formul&aacute;rio de contato
+        </div>
+            
+            <br>
+                
+               <div style="float:left;">
+               
+               <div id="contact-form">
+               
+				 <form method="post" action="">
+                   
+                   <label for="name">Nome: <span class="required">*</span></label>  
+                   <input type="text" id="name" name="name" value="" placeholder="{SITE_NAME}" required autofocus />  
+          
+                   <label for="email">Endereço de E-mail: <span class="required">*</span></label>  
+                   <input type="email" id="email" name="email" value="" placeholder="{STAFF_EMAIL}" required />  
+          
+                   <label for="telephone">Char: </label>  
+                   <input type="text" id="char" name="char" value="" />
+                   
+                    <label for="enquiry">Servidor: </label> 
+                    
+                     <select id="servidor" name="servidor"> 
+                      
+                       <option value="bartz">Bartz</option>  
+                      
+                     </select>
+                     
+                   <label for="enquiry">Assunto: </label> 
+                    
+                     <select id="assunto" name="assunto"> 
+                      
+                       <option value="suporte">Suporte</option>  
+                       <option value="doacoes">Doações</option>  
+                       <option value="adm">Administrador</option>
+                       <option value="outros">Outros</option> 
+                      
+                     </select>  
+          
+                   <label for="message">Mensagem: <span class="required">*</span></label>  
+                   <textarea id="message" name="message" placeholder="Sua mensagem deve ter pelo menos 20 characters" required data-minlength="20"></textarea>  
+          
+                   <span id="loading"></span>  
+                   <input type="submit" name="submit-button" value="Enviar Mensagem" id="submit-button" /> 
+                   <br /> 
+                   <p id="req-field-desc"><span class="required">*</span> Campos obrigatórios</p>  
+                   
+                 </form>
+                   
+               </div>
+               
+           </div>
+           
+           <script src="js/plugins.js"></script>
+	       <script src="js/script.js"></script>
+           
+	       <!--[if lt IE 7 ]>
+           
+	         <script src="js/libs/dd_belatedpng.js"></script>
+	         <script> DD_belatedPNG.fix('img, .png_bg');</script>
+           
+	       <![endif]-->
+           
+        <div style="float:right; margin-top: -30px; margin-left: 120px;" class="endereco">
+			  
+              <div class="title_contato"><h3>E-mails:</h3></div>
+              <br />
+              <p style="margin-bottom:0;"><a href="mailto:{STAFF_EMAIL}">{STAFF_EMAIL}</a></p><br>
+              
+        </div>
+      
+      <br>
+      
+  <div style="float: left;">
+     
+     <p>&nbsp;</p>
+     
+     <p>Entraremos em contato o mais r&aacute;pido possivel, o {SITE_NAME} agradece o seu contato.</p>
+     
+     <p><br>
+     
+     </p>
+  
+  </div>
+
+</div>
+           
+    </div>
+       
+</div>
+
+</div>

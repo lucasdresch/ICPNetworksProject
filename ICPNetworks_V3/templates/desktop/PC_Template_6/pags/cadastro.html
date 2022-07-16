@@ -1,0 +1,55 @@
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+<div align="center">
+<div id="titulo_rank">Cadastro</div>
+<form method="post" action="" name="cadastro" onSubmit="return validar()">
+	<table border="0" width="100%" align="center">
+		<tr>
+			<td style="text-align:center;">
+				<input type="text" name="username" maxlength="16" id="style-input" style="text-align:center; margin:0px 0px 10px 0px;" placeholder="Login" />
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">
+				<input type="text" id="style-input" name="email" maxlength="50" style="text-align:center; margin:0px 0px 10px 0px;" placeholder="E-mail" />
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">
+				<input type="password" name="password1" maxlength="16" id="style-input" style="text-align:center; margin:0px 0px 10px 0px;" placeholder="Senha" />
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">
+				<input type="password" name="password2" maxlength="16" id="style-input" style="text-align:center;" placeholder="Confirme sua senha" />
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">
+				<br><input name="accept_rules" type="checkbox" id="divulgacao" value="ACEITO" checked="checked" />
+				Li e aceito todas as regras do servidor <b>{SITE_NAME}</b>.
+				
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">
+				<br /><input type="submit" id="btn_input" style="width:150px;" name="register" value="Criar Conta" />
+			</td>
+		</tr>
+	</table>
+</form>
+<br />
+</div>

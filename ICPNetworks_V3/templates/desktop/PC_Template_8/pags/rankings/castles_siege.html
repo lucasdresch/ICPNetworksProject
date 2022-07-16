@@ -1,0 +1,63 @@
+<div class="title_conteudo">Castles / Siege</div>
+<style type="text/css">
+	#castelos_estrutura {
+		margin:0 auto;
+		margin-top:20px;
+		width:620px;
+		background: rgba(0,0,0,0.3);
+		*background-color: #1a1f26;
+		_background-color: #1a1f26;
+		border:1px solid #333;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+	}
+	#castle_title {
+		margin:0 auto;
+		width:540px;
+		margin-left:40px;
+		margin-right:40px;
+		margin-top:20px;
+		margin-bottom:20px;
+		padding:15px 0px;
+		font-size:30px;
+		text-align:center;
+		background: rgba(255,255,255,0.1);
+		*background-color: #30343b;
+		_background-color: #30343b;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+		text-transform: capitalize;
+	}
+	#castle_descricao {
+		margin:0 auto;
+		width:570px;
+		margin-left:15px;
+		margin-right:15px;
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size:14px;
+		background: rgba(255,255,255,0.1);
+		*background-color: #30343b;
+		_background-color: #30343b;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		text-align:left;
+		padding:10px;
+	}
+</style>
+<!-- BEGIN BLOCK_RANK_CASTLES -->
+	<div id="castelos_estrutura">
+		<div id="castle_title">{RANK_CASTLE_NAME} Castle</div>
+		<center><img src="images/castles/castle_{RANK_CASTLE_NAME}.jpg" title="{RANK_CASTLE_NAME} Castle" style="-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; width:585px;" /></center>
+		<div id="castle_descricao">
+			<span style="color:#999;">Dono:</span> {RANK_CASTLE_CLAN}<br>
+			<span style="color:#999;">Taxa:</span> {RANK_CASTLE_TAX}%<br>
+			<span style="color:#999;">Pr&oacute;xima Siege:</span> {RANK_CASTLE_DATE}<br>
+			<span style="color:#999;">Atacantes:</span> {RANK_CASTLE_ATTACKERS}<br>
+			<span style="color:#999;">Defensores: {RANK_CASTLE_DEFENDERS}</span>
+		</div>
+	</div>
+<!-- END BLOCK_RANK_CASTLES -->

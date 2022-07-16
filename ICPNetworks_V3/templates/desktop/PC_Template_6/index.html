@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta data -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="{SITE_NAME}, lineage2, lineage 2, line age, lineage II, server, servidor, melhor servidor, top200, topservers, interlude, freya, epilogue, hf, gracia final, high five, top server, rank lineage, ranking lineage, h5, goddess of destruction, icpnetworks, l2jbrasil">
+		<meta name="description" content="{SITE_NAME} - Servidor privado de Lineage II">
+		<meta name="copyright" content="ICPNetworks">
+		<meta name="author" content="www.icpnetworks.com.br / Design & desenvolvimentos web">
+		<meta name="email" content="contato@icpnetworks.com.br">
+		<!-- title -->
+		<title>{SITE_TITLE}</title>
+		<!-- CSS -->
+		<link type="text/css" href="{TEMPLATE}styles/css/reset.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="{TEMPLATE}styles/css/style.css" rel="stylesheet" media="screen" />
+		<link rel="shortcut icon" href="images/miscs/favicon.ico">
+		<style type="text/css">
+			#form-input { background:url({TEMPLATE}imgs/stripes_02.png) no-repeat -250px -95px; width:192px; height:32px; border:none; font-family:"trajan Pro"; font-size:12px; text-align:center; color:#999; }
+			#btn_logar { background:url({TEMPLATE}imgs/stripes_02.png) no-repeat -250px -133px; width:110px; height:34px; border:none; opacity:0.80; } 
+			#btn_logar:hover { opacity:1; cursor:pointer; } 
+		</style>
+		<!-- JavaScript -->
+		<script type="text/javascript" src='{TEMPLATE}styles/js/jquery-1.7.1.min.js'></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/PopBox.js"></script>
+		<script type="text/javascript">
+			popBoxWaitImage.src = "images/miscs/spinner40.gif";
+			popBoxRevertImage = "images/miscs/magminus.gif";
+			popBoxPopImage = "images/miscs/magplus.gif";
+		</script>
+	</head>
+	<body>
+		<div id="back_pt_01">
+			<div class="align-menu">
+				<div class="pt_menu_01"></div>
+				<div class="menu">
+					<ul id="nav">
+						<li><a id="home" href="index.php"></a></li>
+						<li>
+							<a id="registro" href="#"></a>
+							<ul id="subnav">
+								<li><a href="index.php?icp=cadastro">Cadastrar Conta</a></li>
+								<li><a href="index.php?icp=remember">Recuperar Conta</a></li>
+							</ul>
+						</li>
+						<li><a id="downloads" href="index.php?icp=download"></a></li>
+						<li>
+							<a id="info" href="#"></a>
+							<ul id="subnav">
+								<li><a href="index.php?icp=info">Servidor</a></li>
+								<li><a href="index.php?icp=dedicado">Dedicado</a></li>
+								<li><a href="index.php?icp=eventos">Eventos</a></li>
+							</ul>
+						</li>
+						<li><a id="rules" href="index.php?icp=regras"></a></li>
+						<li>
+							<a id="rankings" href="#"></a>
+							<ul id="subnav">
+								<li><a href="index.php?icp=ranking&type=top_pvp">Top PVP</a></li>
+								<li><a href="index.php?icp=ranking&type=top_pk">Top PK</a></li>
+								<li><a href="index.php?icp=ranking&type=castles_siege">Castle Siege</a></li>
+								<li><a href="index.php?icp=ranking&type=top_heros">Heroes</a></li>
+								<li><a href="index.php?icp=ranking&type=olympiads">Olympiads</a></li>
+							</ul>
+						</li>
+						<li><a id="donations" href="index.php?icp=doacao"></a></li>
+						<li><a id="forum" href="#"></a></li>
+					</ul>
+				</div>
+				<div class="pt_menu_02"></div>
+				<div class="languages">
+					<div class="stats_server">
+						LoginServer :
+							<!-- BEGIN BLOCK_LOGIN_SERVER_ONLINE -->
+								<span style="color:#090; padding-right:20px;"> Online </span>
+							<!-- END BLOCK_LOGIN_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_LOGIN_SERVER_OFFLINE -->
+								<span style="color:#900; padding-right:20px;">Offline</span>
+							<!-- END BLOCK_LOGIN_SERVER_OFFLINE -->
+						GameServer :
+							<!-- BEGIN BLOCK_GAME_SERVER_ONLINE -->
+								<span style="color:#090; padding-right:20px;"> Online </span>
+							<!-- END BLOCK_GAME_SERVER_ONLINE -->
+							<!-- BEGIN BLOCK_GAME_SERVER_OFFLINE -->
+								<span style="color:#900; padding-right:20px;">Offline</span>
+							<!-- END BLOCK_GAME_SERVER_OFFLINE -->
+						Players ON : <span style="color:#03C;"><!-- BEGIN BLOCK_SERVER_DETAILS -->{SERVER_TOTAL_ONLINE}<!-- END BLOCK_SERVER_DETAILS --></span>
+					</div>
+					<div class="select-languages">Selecione sua linguagem :</div> 
+					<a style="text-decoration:none;" href="#"><div class="eua"></div></a>
+					<a style="text-decoration:none;" href="#"> <div class="br"></div> </a>
+					<a style="text-decoration:none;" href="#"><div class="spa"></div></a>
+				</div>
+				<div class="pt_content"></div>
+				<div class="align-content">
+					<div class="pt2_content">
+						<div class="sidebar-left">
+							<div class="top-box"><div class="titulo-panel"></div></div>
+							<div class="box01">
+								<!-- BEGIN BLOCK_ICP_PANEL_CONNECTED -->
+									<center><span style="color:#F5DEB3;">ACCESS:</span><br>
+									<a style="text-decoration:none;" target="_blank" href="?icp=panel"><div class="btn_rank">Control Panel</div></a></center>
+								<!-- END BLOCK_ICP_PANEL_CONNECTED -->
+								<!-- BEGIN BLOCK_ICP_PANEL_DISCONNECTED -->
+								<form action="" method="post">
+									<center>
+										<input name="username" type="text" id="form-input" placeholder="Username/Login" /><br /><br />
+										<input name="password" type="password" id="form-input" placeholder="Password/Senha" />
+										<br />
+										<br />
+										<input name="login" type="submit" value="" id="btn_logar" />
+									</center>
+								</form>
+								<a style="text-decoration:none;" href="index.php?icp=remember"><div class="links-painel">Esqueceu sua senha ? </div></a>
+								<a style="text-decoration:none;" href="index.php?icp=cadastro"><div class="links-painel">Cadastre-se,<span id="link-cadastre"> Clique aqui</span> </div></a>
+								<!-- END BLOCK_ICP_PANEL_DISCONNECTED -->
+							</div>
+							<div class="bottom-box"></div>
+							<a href="index.php?icp=doacao"><div class="btn_donate"></div></a>
+							<!--BOX 02 -->
+							<div class="top-box2"><div class="titulo-rank"></div></div>
+							<div class="box01">
+								<center>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=top_pvp"><div class="btn_rank">Top PvP</div></a>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=top_pk"><div class="btn_rank">Top PK</div></a>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=castles_siege"><div class="btn_rank">Castle Siege</div></a>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=top_heros"><div class="btn_rank">Heros</div></a>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=olympiads"><div class="btn_rank">Olympiads</div></a>
+									<a style="text-decoration:none;" href="index.php?icp=ranking&type=boss_status"><div class="btn_rank">Boss Status</div></a>
+								</center>
+							</div><!--BOX 02 -->
+							<div class="bottom-box"></div>
+							<!--BOX 02 -->
+							<div class="top-box2"><div class="titulo-galeria"></div></div>
+							<div class="box01">
+								<div class="align-quads">
+									<!-- BEGIN BLOCK_INDEX_SCREENSHOTS_6 -->
+										<div class="quad{INDEX_SCREENSHOTS_NUM}"><img alt="ScreenShots" src="images/screenshots/thumbs/{INDEX_SCREENSHOTS_IMG}" style="width: 58px; height: 58px; margin-bottom:5px;" pbsrc="images/screenshots/{INDEX_SCREENSHOTS_IMG}" pbCaption="Autor: {INDEX_SCREENSHOTS_AUTHOR} - Legenda: {INDEX_SCREENSHOTS_LEGEND} - Data: {INDEX_SCREENSHOTS_DATE}" class="PopBoxImageSmall" onClick="Pop(this,50,'PopBoxImageLarge');" /></div>
+									<!-- END BLOCK_INDEX_SCREENSHOTS_6 -->
+								</div><!-- ALIGN QUADS -->
+								<div align="center">
+									<a id="link-galeria" href="index.php?icp=screenshots">Ver toda a galeria</a>
+								</div>
+							</div>
+							<div class="bottom-box"></div>
+							<!--BOX 02 -->
+						</div><!-- SIDEBAR LEFT -->
+						<div class="content">
+							<div class="top-content"></div>
+							<div class="midle-content">
+								{PAGES}
+							</div><!--MIDLE CONTENT -->
+							<div class="bottom-content"></div>
+						</div>
+						<!--BOX 02 -->
+						<div id="sidebar-right">
+							<div class="top-box-right"><div class="titulo-vote"></div></div>
+							<div class="box01-right">
+								<center>
+									<a href="#"><div class="vote"></div></a>
+									<br />
+									<img src="{TEMPLATE}imgs/line2.png" width="186" height="2" alt="line" />
+									<div class="text-vote">Vote e ajude o servidor, <br />
+									e <span style="color:#c46612">receba pr?os.</span></div>
+								</center>
+							</div><!--BOX 02 -->
+							<div class="bottom-box-right"></div>
+							<div class="top-box2-right"><div class="titulo-pvp"></div></div>
+							<div class="box01-right">
+								<center>
+									<div class="rank-pvp">
+										<!-- BEGIN BLOCK_INDEX_PVP -->
+										<div class="top10">
+											<tr>
+												<span class="pos">{RANK_PVPPK_POS}</span>
+												<span class="char">{RANK_PVPPK_NAME}</span>
+												<span class="quant">{RANK_PVPPK_COUNT}</span>
+											</tr>
+										</div>
+										<!-- END BLOCK_INDEX_PVP -->
+										<div class="line"></div>
+									</div>
+								</center>
+							</div><!--BOX 02 -->
+							<div class="bottom-box-right"></div>
+							<div class="top-box2-right"><div class="titulo-pk"></div></div>
+							<div class="box01-right">
+								<center>
+									<div class="rank-pvp">
+										<!-- BEGIN BLOCK_INDEX_PK -->
+										<div class="top10">
+											<tr>
+												<span class="pos">{RANK_PVPPK_POS}</span>
+												<span class="char">{RANK_PVPPK_NAME}</span>
+												<span class="quant">{RANK_PVPPK_COUNT}</span>
+											</tr>
+										</div>
+										<!-- END BLOCK_INDEX_PK -->
+										<div class="line"></div>
+									</div>
+								</center>
+							</div><!--BOX 02 -->
+							<div class="bottom-box-right"></div>
+							<div class="top-box2-right" style="text-align:center;color:#B8860B;font-weight:bold;font-size:16px;"><p style="margin-top:16px;">YouTube</p></div>
+							<div class="box01-right">
+								<center>
+									<script src="https://apis.google.com/js/platform.js"></script>
+									<div class="g-ytsubscribe" data-channel="{YOUTUBE}" data-layout="full" data-count="default"></div>
+								</center>
+							</div><!--BOX 02 -->
+							<div class="bottom-box-right"></div>
+						</div><!--SIDEBAR RIGHT -->
+					</div><!--PT 2 CONTENT -->
+				</div>
+				<div class="footer"></div>
+			</div>
+		</div><!--BACKGROUND -->
+		<div class="credits">
+			<a href="http://icpnetworks.com.br" id="icp" title="WebSite desenvolvido por ICPNetworks"></a>
+			<a href="http://icpnetworks.com.br" id="ncsoft"></a>
+			<a href="http://icpnetworks.com.br" id="seloseguro" title="Site seguro - Protegido por ICPNetworks"></a>
+		</div>
+	</body>
+</html>

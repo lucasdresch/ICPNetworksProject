@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { 
+src:url(../font/tt1106m_.ttf);
+font-family:"schadow BT";
+} 
+
+* { margin:0; padding:0; } 
+
+body { background:url(../../imgs/bg.gif) repeat; } 
+
+.topo { background:url(../../imgs/bg_top.png) no-repeat top center; height:275px; z-index:99999; position:relative; } 
+
+.container-1 { 
+width:1000px; 
+height:auto; 
+margin:0 auto; 
+} 
+
+.container { 
+width:1000px; 
+height:auto; 
+margin:0 auto; 
+} 
+
+.date-top { font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:black; float:left; margin-top:8px; margin-left:15px; } 
+.options-top { font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:black; float:left; margin-top:8px; margin-left:55px; font-weight:bold; } 
+.stats-top { font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:black; float:right; margin-top:10px; margin-right:35px; font-weight:400; } 
+
+.logol2 { background:url(../../imgs/botoes_top200.jpg) no-repeat 0px 0px; height:92px; width:50px; float:left; margin-top:21px; margin-left:0px; } 
+.top200 { background:url(../../imgs/botoes_top200.jpg) no-repeat -40px 0px; height:92px; width:180px; float:left; margin-top:21px;  } 
+.top200:hover {background-position:-40px -92px;}
+.hopzone { background:url(../../imgs/botoes_top200.jpg) no-repeat -240px 0px; height:92px; width:190px; float:left; margin-top:21px;  } 
+.hopzone:hover {background-position:-240px -92px;}
+.topzone { background:url(../../imgs/botoes_top200.jpg) no-repeat -440px 0px; height:92px; width:220px; float:left; margin-top:21px;  } 
+.topzone:hover {background-position:-440px -92px;}
+.top100 { background:url(../../imgs/botoes_top200.jpg) no-repeat -660px 0px; height:92px; width:200px; float:left; margin-top:21px;  }
+.top100:hover {background-position:-660px -92px;} 
+.align-botoes { width:860px; float:left; margin-left:70px;}
+
+.menu-01 { clear:both; float:left; margin-left:30px;} 
+
+.menu-01 ul { list-style:none; margin-left:20px; display:block; } 
+.menu-01 ul li { float:left; list-style:none; margin-left:14px; padding:6px 6px 6px 6px; margin-top:25px; display:block;  } 
+.menu-01 ul li:hover { background:rgba(255,255,255,0.9); display:block; }
+.menu-01 ul li a { display:block; font-family:"schadow BT"; font-size:16,5px; color:white; text-decoration:none; } 
+.menu-01 ul li a:hover { display:block; font-family:"schadow BT"; font-size:16,5px; color:black; text-decoration:none; } 
+
+.menu-01 ul { list-style:none; z-index:999; }
+.menu-01 ul li { list-style:none; position:relative; float:left; list-style:none; line-height:295%;  opacity:1; position:relative; z-index:999; }  
+
+.menu-01 ul li:hover ul { display:block; position:absolute; top:60px; left:-20px; background:rgba(255,255,255,0.4); width:219px; border-radius:0 0 5px 5px;  opacity:1; height:auto; border:solid 1px black;}
+.menu-01 ul li:hover ul li  { font-size:13px;  height:37px; width:169px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:0.8; background:#FFF; color:white; line-height:35px;  }
+.menu-01 ul li:hover ul li:hover  { height:37px; width:170px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:1; background:#FFF; color:white; line-height:35px; }
+
+
+.menu-01 ul li:hover ul li a { font-family:Tahoma, Geneva, sans-serif; font-weight:bold; text-decoration:none; color:black; display:block; }
+
+.menu-01 ul li ul { display:none; position:absolute; top:60px; left:0; background:#963; width:160px;  height:50px;  }
+
+
+
+
+.menu-02 ul { list-style:none; z-index:999; }
+.menu-02 ul li { list-style:none; position:relative; float:left; list-style:none; line-height:295%;  opacity:1; position:relative; z-index:999; }  
+
+.menu-02 ul li:hover ul { display:block; position:absolute; top:60px; left:-20px; background:rgba(255,255,255,0.4); width:219px; border-radius:0 0 5px 5px;  opacity:1; height:auto; border:solid 1px black;}
+.menu-02 ul li:hover ul li  { font-size:13px;  height:37px; width:169px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:0.8; background:#FFF; color:white; line-height:35px;  }
+.menu-02 ul li:hover ul li:hover  { height:37px; width:170px; padding:0px 20px; margin-top:3px; margin-left:5px; margin-bottom:4px; opacity:1; background:#FFF; color:white; line-height:35px; }
+
+
+.menu-02 ul li:hover ul li a { font-family:Tahoma, Geneva, sans-serif; font-weight:bold; text-decoration:none; color:black; display:block; }
+
+.menu-02 ul li ul { display:none; position:absolute; top:60px; left:0; background:#963; width:160px;  height:50px;  }
+
+.menu-02 { margin-left:100px; float:left; } 
+
+.menu-02 ul { list-style:none; display:block; } 
+.menu-02 ul li { float:left; list-style:none; margin-left:13px; padding:6px 6px 6px 6px; margin-top:25px; display:block;  } 
+.menu-02 ul li:hover { background:rgba(255,255,255,0.9); display:block; }
+.menu-02 ul li a { font-family:"schadow BT"; font-size:16,5px; color:white; text-decoration:none; display:block; } 
+.menu-02 ul li a:hover { font-family:"schadow BT"; font-size:16,5px; color:black; text-decoration:none; display:block; } 
+
+.alinha-menu {width:999px; margin:0 auto;}
+.bg_site { background:url(../../imgs/bg_site.jpg) no-repeat top center; height:557px; margin-top:-50px; z-index:-1;} 
+
+.logo { background:url(../../imgs/icpnetworks.png) no-repeat;  ; width:519px; height:121px; float:right; margin-top:50px; margin-right:100px; } 
+
+.sidebar { width:259px; height:auto; float:right; } 
+.box_conteudo { background:rgba(255,255,255,0.05);  width:660px; height:auto; clear:both; float:left; margin-top:40px; margin-left:10px; border:1px solid #000; box-shadow:inset 0 0 1px rgba(255,255,255,0.3); border-radius:5px; color:#fff; } 
+.topo_control { background:url(../../imgs/topo_control.png) no-repeat; width:259px; height:59px; margin-top:30px;} 
+.topo_ranking { background:url(../../imgs/topo_rankings.png) no-repeat; width:259px; height:59px; margin-top:30px;} 
+.topo_vote { background:url(../../imgs/topo_vote.png) no-repeat; width:259px; height:59px; margin-top:30px;} 
+
+.midle-box { background:url(../../imgs/midle_box.png) repeat-y 0px -0px; margin-left:12px; width:232px; height:auto; } 
+.bottom-box { background:url(../../imgs/bottom_box.png) no-repeat 16px -6px; height:25px; width:242px; } 
+
+.icon-user { background:url(../../imgs/sprites_input.png) no-repeat -0px -7px; width:37px; height:30px; float:left; margin-left:20px; } 
+.icon-pass { background:url(../../imgs/sprites_input.png) no-repeat -0px -43px; width:37px; height:30px; float:left; margin-left:20px; margin-top:15px; } 
+
+#login { background:url(../../imgs/sprites_input.png) no-repeat -37px -7px; width:157px; height:30px; border:none; color:#fff; outline:none; text-align:center; } 
+
+#password { background:url(../../imgs/sprites_input.png) no-repeat -37px -7px; width:157px; height:30px; border:none; margin-top:15px; color:#fff; outline:none; text-align:center; } 
+
+#btn_login { background:url(../../imgs/sprites_input.png) no-repeat -31px -79px;  width:133px; height:28px; border:none; margin-left:50px; margin-bottom:5px; margin-top:10px; opacity:0.80;} 
+#btn_login:hover { opacity:1; cursor:pointer; } 
+
+.btn_ranking { background:url(../../imgs/btn_rankings.png) no-repeat; opacity:0.80; width:171px; height:32px; margin-left:4px; padding-top:5px; text-align:center; font-family: trajan Pro, Geneva, sans-serif; color:white; font-size:13px; line-height:26px; font-weight:bold; } .btn_ranking { background:url(../../imgs/btn_rankings.png) no-repeat; width:171px; height:32px; margin-left:4px; padding-top:5px; text-align:center; font-family: trajan Pro, Geneva, sans-serif; color:white; font-size:13px; line-height:26px; font-weight:bold; } 
+.btn_ranking:hover { opacity:1; cursor:pointer; } 
+
+.title_conteudo { font-family:"trajan Pro"; font-size:30px; font-weight:bold; color:#e49d36; margin-top:20px; margin-left:20px; text-align:left; } 
+.text-conteudo { font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#CCC; width:620px; text-align:left; margin-left:20px; margin-top:10px; margin-bottom:20px; } 
+
+#style-btn { background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+width:120px; height:30px; border:none; margin-bottom:10px; opacity:0.80; font-weight:bold; }
+#style-btn:hover { opacity:1; cursor:pointer; }   
+#style-form { width:400px; height:30px; font-family:Tahoma, Geneva, sans-serif; font-size:13px; } 
+
+#links { text-decoration:none; color:white; } 
+#links:hover { color:#C60; } 
+
+#links2 { text-decoration:none; color:black; } 
+#links2:hover { color:#c60; } 
+
+.footer { background:url(../../imgs/footer.png) no-repeat top center; height:564px; z-index:-1; } 
+.text-footer { font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#aaaaaa; clear:both; text-align:center; padding-top:100px; } 
+
+#vote_sys { opacity:0.80 } 
+#vote_sys:hover { opacity:1; } 
+
+#rank_borda {
+	border:1px dotted #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-border-radius: 4px;
+	float:left;
+	text-align:center;
+	margin: 1px;
+	line-height:16px;
+	height:16px;
+}
+
+.PopBoxImageSmall
+{
+	border: none 0px #000000;
+	cursor: url("../../../../../images/miscs/magplus.cur"), pointer;
+}
+.PopBoxImageLarge
+{
+	border: solid 2px #1b222c;
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageShrink
+{
+	cursor: url("../../../../../images/miscs/magminus.cur"), pointer;
+}
+.PopBoxImageLink
+{
+	cursor: pointer;
+}
+.PopBoxImageMove
+{
+	border: 2px solid #000000;
+	cursor: pointer;
+}

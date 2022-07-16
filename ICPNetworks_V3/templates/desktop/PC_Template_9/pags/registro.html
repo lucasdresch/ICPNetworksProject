@@ -1,0 +1,83 @@
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+<div class="bar_title_conteudo"></div>
+<div class="title_news">Create Account</div>
+<center>
+<div style="width:350px; margin:0 auto;">
+<form method="post" action="" name="cadastro" onSubmit="return validar()">
+	<table border="0" align="center">
+		<tr>
+			<td>
+				<input type="text" name="username" maxlength="16" placeholder="Login" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="email"  placeholder="Email" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="password" name="password1" maxlength="16"  placeholder="Password" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="password" name="password2" maxlength="16"  placeholder="Password Again" />
+			</td>
+		</tr>
+		<tr>
+			<th colspan="2">
+				
+                
+				<script>
+				var checkobj
+				function agreesubmit(el){
+				checkobj=el
+				if (document.all||document.getElementById){
+				for (i=0;i<checkobj.form.length;i++){  //hunt down submit button
+				var tempobj=checkobj.form.elements[i]
+				if(tempobj.type.toLowerCase()=="submit")
+				tempobj.disabled=!checkobj.checked
+				}
+				}
+				}
+				function defaultagree(el){
+				if (!document.all&&!document.getElementById){
+				if (window.checkobj&&checkobj.checked)
+				return true
+				else{
+				alert("Please read/accept terms to submit form")
+				return false
+				}
+				}
+				}
+				</script>
+                <div style="width:350px; font-family:Tahoma, Geneva, sans-serif;  line-height:35px;font-size:10px; color:#999; text-align:left; float:left;"><input style="float:left; margin-top:5px; margin-left:0px; margin-right:10px; width:10px;" name="accept_rules" type="checkbox" value="ACEITO" onClick="agreesubmit(this)" />	
+Li e aceito todas as regras do servidor <b>{SITE_NAME}</b>.</div>
+			
+				
+			</th>
+		</tr>
+		<tr>
+			<th height="10" colspan="2">
+				<input type="submit" id="btn_form" name="register" value="Create Account" disabled />
+			</th>
+		</tr>
+	</table>
+</form>
+</div>
+</center>

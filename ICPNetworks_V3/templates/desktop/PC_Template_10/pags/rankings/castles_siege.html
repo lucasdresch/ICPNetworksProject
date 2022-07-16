@@ -1,0 +1,73 @@
+<h1>Castles Siege</h1>
+<div class="colun-title-subpags"><a href="index.php">Home</a> > <a href="#">Castles Siege</a></div>
+<div id="centro-pags">
+<div align="center">
+<div id="castelos_grande">
+<style type="text/css">
+	#castelos_estrutura {
+		margin:0 auto;
+		margin-top:20px;
+		width:405px;
+		background: rgba(10,10,10,0.4);
+		*background-color: #1a1f26;
+		_background-color: #1a1f26;
+		border:1px solid #333;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+	}
+	#castle_title {
+		margin:0 auto;
+		width:325px;
+		margin-left:40px;
+		margin-right:40px;
+		margin-top:20px;
+		margin-bottom:20px;
+		padding:15px 0px;
+		font-size:30px;
+		text-align:center;
+		background: rgba(0,0,0,0.6);
+		*background-color: #30343b;
+		_background-color: #30343b;
+		border:1px solid #222;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+		color:#f93;
+		text-transform: capitalize;
+	}
+	#castle_descricao {
+		margin:0 auto;
+		width:355px;
+		margin-left:15px;
+		margin-right:15px;
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size:14px;
+		background: rgba(0,0,0,0.6);
+		*background-color: #30343b;
+		_background-color: #30343b;
+		border:1px solid #222;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		text-align:left;
+		padding:10px;
+		color:#f93;
+	}
+</style>
+<!-- BEGIN BLOCK_RANK_CASTLES -->
+	<div id="castelos_estrutura">
+		<div id="castle_title">{RANK_CASTLE_NAME} Castle</div>
+		<center><img src="images/castles/castle_{RANK_CASTLE_NAME}.jpg" pbsrc="images/castles/castle_{RANK_CASTLE_NAME}.jpg" pbCaption="{RANK_CASTLE_NAME} Castle" title="{RANK_CASTLE_NAME} Castle" style="-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; width:370px;" class="PopBoxImageSmall" onClick="Pop(this,50,'PopBoxImageLarge');" /></center>
+		<div id="castle_descricao">
+			<span style="color:#999;">Dono:</span> {RANK_CASTLE_CLAN}<br>
+			<span style="color:#999;">Taxa:</span> {RANK_CASTLE_TAX}%<br>
+			<span style="color:#999;">Próxima Siege:</span> {RANK_CASTLE_DATE}<br>
+			<span style="color:#999;">Atacantes:</span> {RANK_CASTLE_ATTACKERS}<br>
+			<span style="color:#999;">Defensores:</span> {RANK_CASTLE_DEFENDERS}
+		</div>
+	</div>
+<!-- END BLOCK_RANK_CASTLES -->
+</div></div>
+</div>

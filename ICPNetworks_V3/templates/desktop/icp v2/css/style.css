@@ -1,0 +1,34 @@
+.highlight {background-color:#FF9D9D;border-bottom:#F30 1px solid;border-top:#F30 1px solid;padding: 4px 10px}
+
+/***** Main Layout ****/
+#container {
+  	width: 100%;
+  	height: 100%;
+  	text-align: center;/* IE fix to center the page */
+}
+
+#content {
+  	width: 740px;
+  	margin: 0 auto;/* center the page in Firefox */
+  	text-align: left;
+	padding: 20px;
+}
+
+.btn-default {
+	display: block;
+	width: 80%;
+	background: #1E1E1E;
+	margin: .5rem auto;
+	padding: .6rem .5rem;
+	border: 1px solid #333;
+	color: #CCC !important;
+}
+
+.btn-default:hover {
+	background: #0B303E;
+	border: 1px solid #1c4f62;
+}
+
+.icon {
+	width: 25px;
+}

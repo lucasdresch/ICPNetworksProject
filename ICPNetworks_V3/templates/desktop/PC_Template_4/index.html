@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta data -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="{SITE_NAME}, lineage2, lineage 2, line age, lineage II, server, servidor, melhor servidor, top200, topservers, interlude, freya, epilogue, hf, gracia final, high five, top server, rank lineage, ranking lineage, h5, goddess of destruction, icpnetworks, l2jbrasil">
+		<meta name="description" content="{SITE_NAME} - Servidor privado de Lineage II">
+		<meta name="copyright" content="ICPNetworks">
+		<meta name="author" content="www.icpnetworks.com.br / Design & desenvolvimentos web">
+		<meta name="email" content="contato@icpnetworks.com.br">
+		<!-- title -->
+		<title>{SITE_TITLE}</title>
+		<!-- Shortcut -->
+		<link rel="shortcut icon" href="images/miscs/favicon.ico">
+		<link href='{TEMPLATE}images/favicon.png' rel='shortcut icon'/>
+		<link href='{TEMPLATE}images/favicon.png' rel='icon' type='image/png'/>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="{TEMPLATE}styles/css/hugofelipe.css" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="{TEMPLATE}styles/css/stylesheet.css" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="{TEMPLATE}styles/css/dd.css" />
+		<!-- JavaScript -->
+		<script type="text/javascript" src="{TEMPLATE}styles/js/jquery.min.js"></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/jquery.cycle.all.js"></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/PopBox.js"></script>
+		<script type="text/javascript" src="{TEMPLATE}styles/js/jquery.dd.min.js"></script>
+		<script type="text/javascript">
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2617026385223468');
+			fbq('track', 'PageView');
+			fbq('track', 'UserPanel');
+			$( document ).ready( function() {
+				$( "#container-banners ul" ).cycle({
+					pager: '#pager',
+					prev: '#prev',
+					next: '#next'
+				});
+			});
+			popBoxWaitImage.src = "images/miscs/spinner40.gif";
+			popBoxRevertImage = "images/miscs/magminus.gif";
+			popBoxPopImage = "images/miscs/magplus.gif";
+		</script>
+	</head>
+	<body>
+		<div id="top-wrapper">
+			<div id="back-wrapper">
+				<div id="content-top-wrapper" class="clear">
+					<div id="logo" class="left">
+						<ul id="logo">
+							<li><a href="index.php"></a></li>
+						</ul>
+					</div>
+					<div id="menu" class="right">
+						<ul id="menu">
+							<li id="oservidor"><a href="index.php?icp=oservidor"></a></li>
+							<li id="registro"><a href="index.php?icp=registro"></a></li>
+							<li id="downloads"><a href="index.php?icp=downloads"></a></li>
+							<li id="donate"><a href="index.php?icp=donate"></a></li>
+							<li id="contato"><a href="index.php?icp=contato"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			{PAGES}
+		</div>
+		<div id="bottom" class="left top-bottom">
+			<div id="content-bottom">
+				<div id="menu-bottom" class="left">
+					<h3>Menu</h3>
+					<ul>
+						<li><a href="index.php">início</a></li>
+						<li><a href="index.php?icp=oservidor">o servidor</a></li>
+						<li><a href="index.php?icp=registro">registro</a></li>
+						<li><a href="index.php?icp=downloads">downloads</a></li>
+					</ul>
+				</div>
+				<div id="doacao-bottom" class="left">
+					<h3>Doações</h3>
+					<ul>
+						<li><a href="index.php?icp=donate">ajude o {SITE_NAME}</a></li>
+					</ul>
+				</div>
+				<div id="contato-bottom" class="left">
+					<h3>Contato</h3>
+					<ul>
+						<li><a href="index.php?icp=contato">via-web</a></li> 
+						<li><a href="mailto:{STAFF_EMAIL}">{STAFF_EMAIL}</a></li>
+					</ul>
+				</div>
+				<div id="sociais-bottom" class="right">
+					<h3>Curta no Facebook:</h3>
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+					</script>
+					<div class="fb-like-box" data-href="http://www.facebook.com/{FACEBOOK}" data-width="285" data-height="100" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+				</div>
+				<div id="rodape-bottom" class="left">
+					<div id="icones-sociais" class="left">
+						<ul id="icones-sociais">
+							<li id="facebook"><a href="" title="Siga-nos no facebook"></a></li>
+							<li id="twitter"><a href="" title="Siga-nos no twitter"></a></li>
+							<li id="youtube"><a href="" title="Siga-nos no youtube"></a></li>
+						</ul>
+					</div>
+					<div id="desc-rodape" class="right">
+						<a href="#">{SITE_NAME}</a> Â© - Todos os direitos reservados | Proibida cÃ³pia ou reproduÃ§Ã£o deste site sob penas da lei.<br>
+						Web desenvolvido por <a href="#">Hugo Felipe</a> e programado por: <a href="http://icpnetworks.com.br" target="_blank">ICPNetworks</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<div id="content-wrapper">
+	<div class="space"></div>
+	<div id="content" class="left">
+		<div id="content-center" class="left">
+			<h1>Grand Bosses</h1>
+			<div class="linha1"></div>
+			<div style="width:650px;">
+				<div>Aqui você poderá visualizar se o desejado Grand Boss esta online ou não. Se não estiver, não perca tempo, vai fazer a quest e aguardar ele surgir para que você possa derrota-lo!<br /><br /></div>
+			</div>
+			<div style="width:650px;margin:0 auto;margin-top:10px;">
+				<div style="width:635px; margin:0 auto;">
+					<div id="rank_borda" style="width:150px;">
+						Nome
+					</div>
+					<div id="rank_borda" style="width:70px;">
+						Level
+					</div>
+					<div id="rank_borda" style="width:70px;">
+						Status
+					</div>
+					<div id="rank_borda" style="width:239px;">
+						Respawn
+					</div>
+				</div>
+				<!-- BEGIN BLOCK_RANK_BOSSES -->
+					<div style="width:635px; margin:0 auto;">
+						<div id="rank_borda" style="width:150px; height:128px; color:#777;">
+							{RANK_BOSS_NAME}<br>
+							<img  alt="{RANK_BOSS_NAME}" src="images/bosses/{RANK_BOSS_NAME}.jpg" width="150" height="113"  pbsrc="images/bosses/{RANK_BOSS_NAME}.jpg" pbCaption="{RANK_BOSS_NAME} - Status: {RANK_BOSS_STATUS} - Respawn: {RANK_BOSS_RESPAWN}" class="PopBoxImageSmall" onclick="Pop(this,50,'PopBoxImageLarge');">
+						</div>
+						<div id="rank_borda" style="width:70px; height:128px; line-height:128px; color:#777;">
+							{RANK_BOSS_LEVEL}
+						</div>
+						<div id="rank_borda" style="width:70px; height:128px; line-height:128px; color:#777;">
+							{RANK_BOSS_STATUS}
+						</div>
+						<div id="rank_borda" style="width:239px; height:128px; line-height:128px; color:#777;">
+							{RANK_BOSS_RESPAWN}
+						</div>
+					</div>
+				<!-- END BLOCK_RANK_BOSSES -->
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+</div>

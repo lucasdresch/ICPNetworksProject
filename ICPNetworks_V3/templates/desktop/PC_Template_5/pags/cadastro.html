@@ -1,0 +1,55 @@
+<script language="JavaScript1.2">
+  var valido;
+  function validar(){
+    var str = document.cadastro.email.value;
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    if(filter.test(str))
+      valido = true;
+    else{
+      alert("Este endereço de e-mail não é válido!");
+      document.cadastro.email.focus();
+      valido = false;
+    }
+    return valido;
+  }
+</script>
+<div align="center">
+<div class="bar_title"><div class="text-title">Cadastro</div></div><br><br><br>
+<font color="#fff">Após o cadastro você recebera um email para efetuar a confirmação da sua conta.</font><br><br>
+<form method="post" action="" name="cadastro" onSubmit="return validar()" style="color:#fff;">
+	<table border="0" align="center" cellspacing="0">
+		<tr>
+			<td align="center">
+				<input type="text" name="username" maxlength="16" id="input" value="" placeholder="Escolha Seu Login" style="text-align:center;" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input type="text" name="email" id="input" placeholder="Digite Seu Email" style="text-align:center;" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input type="password" name="password1" maxlength="16" id="input" placeholder="Escolha Sua Senha" style="text-align:center;" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input type="password" name="password2" maxlength="16" id="input" placeholder="Repita sua Senha" style="text-align:center;" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input name="accept_rules" type="checkbox" id="divulgacao" value="ACEITO" checked="checked" style="width:20px; height:20px; float:left; margin-top:0px;" />
+				<span style="font-size:12px; text-align:left; font-family:Tahoma, Geneva, sans-serif; font-weight:100;">Li e aceito todas as regras do servidor <b>{SITE_NAME}</b>.</span>
+				<br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input type="submit" id="btn" name="register" value="Criar Conta" />
+			</td>
+		</tr>
+	</table>
+</form>
+</div>

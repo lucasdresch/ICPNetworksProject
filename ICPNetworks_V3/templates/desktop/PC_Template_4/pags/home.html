@@ -1,0 +1,129 @@
+<div id="container-banners">
+		
+          <ul>
+            
+              <li><a href="#"><img src="{TEMPLATE}images/slide/slide1.png" alt=""></a></li>
+		      <li><a href="#"><img src="{TEMPLATE}images/slide/slide2.png" alt=""></a></li>
+			  <li><a href="#"><img src="{TEMPLATE}images/slide/slide3.png" alt=""></a></li>
+              <li><a href="#"><img src="{TEMPLATE}images/slide/slide4.png" alt=""></a></li>
+		
+          </ul>
+
+		  <div id="pager"></div>
+        
+       </div>
+       
+       <div id="content" class="left">
+       
+         <div id="content-center" class="left">
+         
+           <div id="left-box" class="left">
+           
+<h1>novidades:</h1>
+		
+	<div class="linha1"></div>
+<!-- BEGIN BLOCK_NEWS -->
+	<div class="left" id="noticias">
+	<div id="avatar" class="left"><img src="images/profiles/{NEWS_PROFILE}" width="80" height="80" /></div>
+	<div id="ntitle" class="left"><h2>{NEWS_TITLE}</h2></div>
+	<div id=\"desc-noticia\" class=\"left\"><p>{NEWS_TEXT_FULL}</p><p>&nbsp;</p><p>&nbsp;</p></div>
+	</div>
+	<div id="data" class="left">Autor: <a href="#">{NEWS_AUTHOR}</a></div>
+	<div id="autor" class="right">Data: <a href="#">{NEWS_DATE}</a></div>
+	<div class="linha1 left"></div> 
+<!-- END BLOCK_NEWS -->
+
+           </div>
+         
+           <div id="right-box" class="right">
+           
+             <div id="painel">
+             
+               <h1>painel de controle</h1>
+               
+                 <div class="linha2"></div>
+               
+                 <div id="content-painel">
+              <div id="aux-menu">
+             
+					<!-- BEGIN BLOCK_ICP_PANEL_CONNECTED -->
+						<center><span style="color:#F5DEB3;">ACCESS:</span><br><br>
+						<a style="width:auto; margin:5px; padding:10px 20px; font-size:28px; text-decoration:none; background: rgba(50,50,50,0.5); border:1px solid #666; border-radius:5px;" target='_blank' href='?icp=panel'>Control Panel</a><br><br></center>
+					<!-- END BLOCK_ICP_PANEL_CONNECTED -->
+					<!-- BEGIN BLOCK_ICP_PANEL_DISCONNECTED -->
+					<form action="" id="form-news" method="post">
+						<input name="username" type="text" id="nome" class="validate[required]" size="0" placeholder="Digite o seu login"></input>
+						<br /><br />
+						<input name="password" type="password" id="password" class="validate[required,custom[email]]" size="0" placeholder="Digite sua senha"></input>
+						<br /><br />
+						<input name="login" type="submit" id="enviar" value="Login"></input>
+					</form>
+					<br>
+					<a href="index.php?icp=remember">recuperar senha</a><br>
+					<a href="index.php?icp=registro">ainda não é cadastrado?</a>
+					<!-- END BLOCK_ICP_PANEL_DISCONNECTED -->
+                 </div>
+                 </div>
+             
+             </div>
+             
+             <div id="status">
+             
+               <h1>status</h1>
+               
+                 <div class="linha2"></div>
+               
+                 <div id="content-status">
+               
+					<li>
+						<a href="#">login server</a>:
+						<!-- BEGIN BLOCK_LOGIN_SERVER_ONLINE -->
+							<span style='color:#0F0;'>ONLINE</span>
+						<!-- END BLOCK_LOGIN_SERVER_ONLINE -->
+						<!-- BEGIN BLOCK_LOGIN_SERVER_OFFLINE -->
+							<span style='color:#F00;'>OFFLINE</span>
+						<!-- END BLOCK_LOGIN_SERVER_OFFLINE -->
+					</li>
+					<li>
+						<a href="#">game server</a>:
+						<!-- BEGIN BLOCK_GAME_SERVER_ONLINE -->
+							<span style='color:#0F0;'>ONLINE</span>
+						<!-- END BLOCK_GAME_SERVER_ONLINE -->
+						<!-- BEGIN BLOCK_GAME_SERVER_OFFLINE -->
+							<span style='color:#F00;'>OFFLINE</span>
+						<!-- END BLOCK_GAME_SERVER_OFFLINE -->
+					</li>
+                   
+                 </div>
+             
+             </div>
+             
+             <div id="ranking">
+             
+               <h1>ranking</h1>
+               
+                 <div class="linha2"></div>
+                 
+                 <div id="content-ranking">
+                 
+                   <ul id="content-ranking"> 
+                   
+                     <li id="toppvp"><a href="index.php?icp=ranking&type=top_pvp"></a></li>
+                     <li id="toppk"><a href="index.php?icp=ranking&type=top_pk"></a></li>
+                     <li id="bossn"><a href="index.php?icp=ranking&type=raid_boss_status"></a></li>
+                     <li id="bossg"><a href="index.php?icp=ranking&type=grand_boss_status"></a></li>
+                     <li id="siege"><a href="index.php?icp=ranking&type=castles_siege"></a></li>
+                     
+                   </ul>
+                   
+                   </ul>
+                 
+                 </div>
+             
+             </div>
+             
+           </div>
+           
+         </div>
+           
+       </div>
